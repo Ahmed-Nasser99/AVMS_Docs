@@ -110,4 +110,5 @@ main {
   height: 90vh !important;
   overflow-y: auto !important;
   width: 250px !important;
+  position: fixed;
 }

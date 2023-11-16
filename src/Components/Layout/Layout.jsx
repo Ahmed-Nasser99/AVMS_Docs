@@ -5,8 +5,8 @@ import { Outlet } from "react-router-dom";
 export default function Layout() {
   return (
     <div className="container">
-      <div className="row py-2">
-        <div className="col-md-3 d-flex align-items-center justify-content-center">
+      <div className="row py-4">
+        <div className="col-md-3">
           <Sidebar />
         </div>
         <div className="col-md-9">
