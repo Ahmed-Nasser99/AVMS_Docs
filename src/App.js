@@ -10,6 +10,9 @@ import Floors from "./Pages/Home/Floors/Floors";
 import Units from "./Pages/Home/Units/Units";
 import Gates from "./Pages/Home/Gates/Gates";
 import Devices from "./Pages/Home/Devices/Devices";
+import Companies from "./Pages/Home/Companies/Companies";
+import DeviceTypes from "./Pages/Home/DeviceTypes/DeviceTypes";
+import Blacklist from "./Pages/Home/Blacklist/Blacklist";
 
 function App() {
   let routes = createHashRouter([
@@ -52,6 +55,18 @@ function App() {
         {
           path: "/home/Devices",
           element: <Devices />,
+        },
+        {
+          path: "/home/Companies",
+          element: <Companies />,
+        },
+        {
+          path: "/home/DeviceTypes",
+          element: <DeviceTypes />,
+        },
+        {
+          path: "/home/Blacklist",
+          element: <Blacklist />,
         },
       ],
     },
