@@ -11,7 +11,11 @@ export default function Invitation() {
       <h1 className="text-muted">Invitation Form</h1>
       <SliderImage imageArray={imageArray} />
       <h1 className="text-muted">Invitation Mail</h1>
-      <img src={InvitationMailImage} alt="Main Dashboard" className="rounded" />
+      <img
+        src={InvitationMailImage}
+        alt="Main Dashboard"
+        className="rounded "
+      />
     </div>
   );
 }
