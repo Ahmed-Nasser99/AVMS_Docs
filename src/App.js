@@ -14,6 +14,7 @@ import Companies from "./Pages/Home/Companies/Companies";
 import DeviceTypes from "./Pages/Home/DeviceTypes/DeviceTypes";
 import Blacklist from "./Pages/Home/Blacklist/Blacklist";
 import Users from "./Pages/Users & Roles management/Users/Users";
+import Roles from "./Pages/Users & Roles management/Roles/Roles";
 
 function App() {
   let routes = createHashRouter([
@@ -70,8 +71,12 @@ function App() {
           element: <Blacklist />,
         },
         {
-          path: "/Users & Roles management/users",
+          path: "/Users&RolesManagement/users",
           element: <Users />,
+        },
+        {
+          path: "/Users&RolesManagement/roles",
+          element: <Roles />,
         },
       ],
     },

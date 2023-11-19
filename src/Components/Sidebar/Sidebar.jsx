@@ -53,14 +53,17 @@ export default function Sidebar() {
             <ul className="btn-toggle-nav list-unstyled fw-normal pb-1 small">
               <li>
                 <Link
-                  to="/Users & Roles management/users"
+                  to="/Users&RolesManagement/users"
                   className="link-dark rounded"
                 >
                   Users
                 </Link>
               </li>
               <li>
-                <Link to="#" className="link-dark rounded">
+                <Link
+                  to="/Users&RolesManagement/roles"
+                  className="link-dark rounded"
+                >
                   Roles
                 </Link>
               </li>
