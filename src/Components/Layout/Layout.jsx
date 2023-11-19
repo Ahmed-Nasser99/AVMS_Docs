@@ -4,8 +4,8 @@ import { Outlet } from "react-router-dom";
 
 export default function Layout() {
   return (
-    <div className="container">
-      <div className="row py-4">
+    <div className="container m-0">
+      <div className="row p-4">
         <div className="col-md-3">
           <Sidebar />
         </div>

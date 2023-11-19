@@ -112,3 +112,10 @@ main {
   width: 250px !important;
   position: fixed;
 }
+img {
+  width: 500px !important;
+  height: 250px !important;
+}
+.fs-8 {
+  font-size: 14px;
+}

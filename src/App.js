@@ -13,6 +13,7 @@ import Devices from "./Pages/Home/Devices/Devices";
 import Companies from "./Pages/Home/Companies/Companies";
 import DeviceTypes from "./Pages/Home/DeviceTypes/DeviceTypes";
 import Blacklist from "./Pages/Home/Blacklist/Blacklist";
+import Users from "./Pages/Users & Roles management/Users/Users";
 
 function App() {
   let routes = createHashRouter([
@@ -67,6 +68,10 @@ function App() {
         {
           path: "/home/Blacklist",
           element: <Blacklist />,
+        },
+        {
+          path: "/Users & Roles management/users",
+          element: <Users />,
         },
       ],
     },

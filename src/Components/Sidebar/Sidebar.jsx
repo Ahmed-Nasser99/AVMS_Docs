@@ -1,6 +1,7 @@
 import React from "react";
 import DashboardCategory from "../../Tabs Category/DashboardCategory/Dashboard Category";
 import HomeCategories from "../../Tabs Category/HomeCategories/Home Categories";
+import { Link } from "react-router-dom";
 
 export default function Sidebar() {
   return (
@@ -17,7 +18,7 @@ export default function Sidebar() {
             className="btn btn-toggle align-items-center rounded collapsed"
             data-bs-toggle="collapse"
             data-bs-target="#dashboard-collapse"
-            aria-expanded="false"
+            aria-expanded="true"
           >
             Dashboard
           </button>
@@ -30,7 +31,7 @@ export default function Sidebar() {
             className="btn btn-toggle align-items-center rounded collapsed"
             data-bs-toggle="collapse"
             data-bs-target="#home-collapse"
-            aria-expanded="true"
+            aria-expanded="false"
           >
             Home
           </button>
@@ -41,34 +42,27 @@ export default function Sidebar() {
 
         <li className="mb-1">
           <button
-            className="btn btn-toggle align-items-center rounded collapsed"
+            className="btn btn-toggle align-items-center rounded collapsed fs-8"
             data-bs-toggle="collapse"
             data-bs-target="#orders-collapse"
             aria-expanded="false"
           >
-            Orders
+            Users & Roles management
           </button>
           <div className="collapse" id="orders-collapse">
             <ul className="btn-toggle-nav list-unstyled fw-normal pb-1 small">
               <li>
-                <a href="#" className="link-dark rounded">
-                  New
-                </a>
+                <Link
+                  to="/Users & Roles management/users"
+                  className="link-dark rounded"
+                >
+                  Users
+                </Link>
               </li>
               <li>
-                <a href="#" className="link-dark rounded">
-                  Processed
-                </a>
-              </li>
-              <li>
-                <a href="#" className="link-dark rounded">
-                  Shipped
-                </a>
-              </li>
-              <li>
-                <a href="#" className="link-dark rounded">
-                  Returned
-                </a>
+                <Link to="#" className="link-dark rounded">
+                  Roles
+                </Link>
               </li>
             </ul>
           </div>
