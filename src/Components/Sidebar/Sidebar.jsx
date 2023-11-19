@@ -2,6 +2,7 @@ import React from "react";
 import DashboardCategory from "../../Tabs Category/DashboardCategory/Dashboard Category";
 import HomeCategories from "../../Tabs Category/HomeCategories/Home Categories";
 import { Link } from "react-router-dom";
+import UsersRoles from "../../Tabs Category/Users&Roles/Users&Roles";
 
 export default function Sidebar() {
   return (
@@ -50,24 +51,7 @@ export default function Sidebar() {
             Users & Roles management
           </button>
           <div className="collapse" id="orders-collapse">
-            <ul className="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-              <li>
-                <Link
-                  to="/Users&RolesManagement/users"
-                  className="link-dark rounded"
-                >
-                  Users
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/Users&RolesManagement/roles"
-                  className="link-dark rounded"
-                >
-                  Roles
-                </Link>
-              </li>
-            </ul>
+            <UsersRoles />
           </div>
         </li>
       </ul>
