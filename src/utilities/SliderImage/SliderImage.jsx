@@ -18,7 +18,7 @@ export default function SliderImage({ imageArray }) {
   }
   return (
     <div className="imageSliderContainer">
-      <i class="fa-solid fa-backward back" onClick={ChangeImageIndexPrev}></i>
+      <i class="fa-solid fa-backward back " onClick={ChangeImageIndexPrev}></i>
       <img src={imageArray[currentImageIndex]} alt="ImageSlider" />
       <i class="fa-solid fa-forward next" onClick={ChangeImageIndexNext}></i>
     </div>
