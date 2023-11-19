@@ -54,6 +54,16 @@ export default function Sidebar() {
             <UsersRoles />
           </div>
         </li>
+        <li className="mb-1">
+          <Link to="/report" className="btn link-dark rounded">
+            Report
+          </Link>
+        </li>
+        <li className="mb-1">
+          <Link to="/Invitation" className="btn link-dark rounded">
+            Invitation
+          </Link>
+        </li>
       </ul>
     </div>
   );

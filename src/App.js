@@ -16,6 +16,7 @@ import Blacklist from "./Pages/Home/Blacklist/Blacklist";
 import Users from "./Pages/Users & Roles management/Users/Users";
 import Roles from "./Pages/Users & Roles management/Roles/Roles";
 import Report from "./Pages/Report/Report";
+import Invitation from "./Pages/Invitation/Invitation";
 
 function App() {
   let routes = createHashRouter([
@@ -82,6 +83,10 @@ function App() {
         {
           path: "/report",
           element: <Report />,
+        },
+        {
+          path: "/Invitation",
+          element: <Invitation />,
         },
       ],
     },

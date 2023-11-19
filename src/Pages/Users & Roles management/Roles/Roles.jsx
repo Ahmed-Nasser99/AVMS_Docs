@@ -6,13 +6,9 @@ export default function Roles() {
   return (
     <div className="w-100 d-flex align-items-center justify-content-center flex-column">
       <h1 className="text-muted">Main Roles</h1>
-      <img src={indexRoles} alt="Main Dashboard" className="rounded w-100" />
+      <img src={indexRoles} alt="Main Dashboard" className="rounded" />
       <h1 className="text-muted">Mange Permissions</h1>
-      <img
-        src={MangePermissions}
-        alt="Main Dashboard"
-        className="rounded w-100"
-      />
+      <img src={MangePermissions} alt="Main Dashboard" className="rounded" />
     </div>
   );
 }
