@@ -4,7 +4,7 @@ import HomeCategories from "../../Tabs Category/HomeCategories/Home Categories";
 import { Link } from "react-router-dom";
 import UsersRoles from "../../Tabs Category/Users&Roles/Users&Roles";
 
-export default function Sidebar() {
+export default function Sidebar({ setDisplaySidebar, DisplaySidebar }) {
   return (
     <div className="flex-shrink-0 p-3 bg-white w-100 h-100 rounded sidebar">
       <a

@@ -4,6 +4,7 @@ import Invitation2 from "../../assets/Images/Invation/InvitationSliderImage/Invi
 import Invitation3 from "../../assets/Images/Invation/InvitationSliderImage/Invitation3.jpeg";
 import InvitationMailImage from "../../assets/Images/Invation/InvitationEmail.jpeg";
 import SliderImage from "../../utilities/SliderImage/SliderImage";
+import Image from "../../Components/Image/Image";
 export default function Invitation() {
   let imageArray = [Invitation1, Invitation2, Invitation3];
   return (
@@ -11,10 +12,10 @@ export default function Invitation() {
       <h1 className="text-muted">Invitation Form</h1>
       <SliderImage imageArray={imageArray} />
       <h1 className="text-muted">Invitation Mail</h1>
-      <img
+      <Image
         src={InvitationMailImage}
-        alt="Main Dashboard"
-        className="rounded "
+        alt={"Invitation Email Image"}
+        className={"rounded"}
       />
     </div>
   );
