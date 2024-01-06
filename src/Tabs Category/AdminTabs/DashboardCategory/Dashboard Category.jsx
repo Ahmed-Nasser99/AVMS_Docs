@@ -10,7 +10,7 @@ export default function DashboardCategory() {
         </Link>
       </li>
       <li>
-        <Link to="/dashboard/customDashboard" className="link-dark rounded">
+        <Link to="/admin/customDashboard" className="link-dark rounded">
           Custom Dashboard
         </Link>
       </li>
