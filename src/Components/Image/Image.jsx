@@ -1,10 +1,10 @@
 import React from "react";
 import ModalToViewImage from "../../utilities/ModalToViewImage/ModalToViewImage";
 
-export default function Image({ src, alt, className }) {
+export default function Image({ src, alt, className, modalImage }) {
   return (
     <>
-      <ModalToViewImage src={src} />
+      <ModalToViewImage src={modalImage || src} />
       <img
         src={src}
         alt={alt}
@@ -12,9 +12,6 @@ export default function Image({ src, alt, className }) {
         className={className}
         data-bs-toggle="modal"
         data-bs-target="#exampleModal"
-        onClick={() => {
-          console.log("CLICK");
-        }}
       />
     </>
   );

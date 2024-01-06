@@ -18,7 +18,11 @@ code {
 html {
   height: -webkit-fill-available;
 }
-
+#root,
+.container-h,
+.row-h {
+  min-height: 100vh;
+}
 main {
   display: flex;
   flex-wrap: nowrap;
@@ -107,10 +111,7 @@ main {
   line-height: 1.25;
 }
 .sidebar {
-  height: 90vh !important;
-  overflow-y: auto !important;
-  width: 250px !important;
-  position: fixed;
+  height: 90%;
 }
 img {
   width: 500px !important;
