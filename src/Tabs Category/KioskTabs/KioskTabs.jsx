@@ -5,28 +5,28 @@ export default function KioskTabs() {
   return (
     <ul className="btn-toggle-nav list-unstyled fw-normal pb-1 small">
       <li>
-        <Link to="/admin" className="link-dark rounded">
+        <Link to="/kiosk" className="link-dark rounded">
           Welcome
         </Link>
       </li>
 
       <li>
-        <Link to="/admin" className="link-dark rounded">
+        <Link to="/kiosk/visitType" className="link-dark rounded">
           Visit Type
         </Link>
       </li>
       <li>
-        <Link to="/admin" className="link-dark rounded">
+        <Link to="/kiosk/todayInvitation" className="link-dark rounded">
           Create Today Invitation
         </Link>
       </li>
       <li>
-        <Link to="/admin" className="link-dark rounded">
+        <Link to="/kiosk/upcomingInvitation" className="link-dark rounded">
           Create Upcoming Invitation
         </Link>
       </li>
       <li>
-        <Link to="/admin" className="link-dark rounded">
+        <Link to="/kiosk/SearchVisits" className="link-dark rounded">
           Search Visits
         </Link>
       </li>
