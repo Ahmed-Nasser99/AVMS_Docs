@@ -1,5 +1,5 @@
 import React from "react";
-import indexBuilding from "../../../assets/Images/Home/Buildings/Buildings.jpeg";
+import indexBuilding from "../../../assets/Images/Admin_images/Home/Buildings/Buildings.jpeg";
 import Image from "../../../Components/Image/Image";
 
 export default function Buildings() {

@@ -1,5 +1,5 @@
 import React from "react";
-import indexDevices from "../../../assets/Images/Home/Devices/Devices.jpeg";
+import indexDevices from "../../../assets/Images/Admin_images/Home/Devices/Devices.jpeg";
 import Image from "../../../Components/Image/Image";
 
 export default function Devices() {

@@ -1,5 +1,5 @@
 import React from "react";
-import customDashboard from "../../../assets/Images/Dashboard/CustomDashboard.jpeg";
+import customDashboard from "../../../assets/Images/Admin_images/Dashboard/CustomDashboard.jpeg";
 import Image from "../../../Components/Image/Image";
 
 export default function CustomDashboard() {

@@ -1,6 +1,6 @@
 import React from "react";
-import indexUsers from "../../../assets/Images/Users & Roles management/Users/UsersList.jpeg";
-import AddUsers from "../../../assets/Images/Users & Roles management/Users/AddUser.jpeg";
+import indexUsers from "../../../assets/Images/Admin_images/Users & Roles management/Users/UsersList.jpeg";
+import AddUsers from "../../../assets/Images/Admin_images/Users & Roles management/Users/AddUser.jpeg";
 import Image from "../../../Components/Image/Image";
 
 export default function Users() {

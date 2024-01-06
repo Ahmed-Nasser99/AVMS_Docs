@@ -1,6 +1,6 @@
 import React from "react";
-import indexRoles from "../../../assets/Images/Users & Roles management/Roles/MainRoles.jpeg";
-import MangePermissions from "../../../assets/Images/Users & Roles management/Roles/MangePermissions.jpeg";
+import indexRoles from "../../../assets/Images/Admin_images/Users & Roles management/Roles/MainRoles.jpeg";
+import MangePermissions from "../../../assets/Images/Admin_images/Users & Roles management/Roles/MangePermissions.jpeg";
 import Image from "../../../Components/Image/Image";
 
 export default function Roles() {

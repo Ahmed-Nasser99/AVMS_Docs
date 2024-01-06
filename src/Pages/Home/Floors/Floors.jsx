@@ -1,5 +1,5 @@
 import React from "react";
-import indexFloor from "../../../assets/Images/Home/Floors/Floors.jpeg";
+import indexFloor from "../../../assets/Images/Admin_images/Home/Floors/Floors.jpeg";
 import Image from "../../../Components/Image/Image";
 
 export default function Floors() {

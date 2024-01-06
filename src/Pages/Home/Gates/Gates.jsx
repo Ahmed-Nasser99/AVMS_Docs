@@ -1,5 +1,5 @@
 import React from "react";
-import indexGates from "../../../assets/Images/Home/Gates/Gates.jpeg";
+import indexGates from "../../../assets/Images/Admin_images/Home/Gates/Gates.jpeg";
 import Image from "../../../Components/Image/Image";
 export default function Gates() {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import indexSector from "../../../assets/Images/Home/Sectors/Sectors.jpeg";
+import indexSector from "../../../assets/Images/Admin_images/Home/Sectors/Sectors.jpeg";
 import Image from "../../../Components/Image/Image";
 export default function Sectors() {
   return (

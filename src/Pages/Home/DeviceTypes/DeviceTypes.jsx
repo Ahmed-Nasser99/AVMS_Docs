@@ -1,5 +1,5 @@
 import React from "react";
-import indexDeviceType from "../../../assets/Images/Home/DeviceTypes/DeviceTypes.jpeg";
+import indexDeviceType from "../../../assets/Images/Admin_images/Home/DeviceTypes/DeviceTypes.jpeg";
 import Image from "../../../Components/Image/Image";
 export default function DeviceTypes() {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
-import indexReport from "../../assets/Images/Reports/MainReport.jpeg";
-import ReportContainer from "../../assets/Images/Reports/ReportContainer.jpeg";
-import ReportDetails from "../../assets/Images/Reports/RecordDetails.jpeg";
+import indexReport from "../../assets/Images/Admin_images/Reports/MainReport.jpeg";
+import ReportContainer from "../../assets/Images/Admin_images/Reports/ReportContainer.jpeg";
+import ReportDetails from "../../assets/Images/Admin_images/Reports/RecordDetails.jpeg";
 import Image from "../../Components/Image/Image";
 export default function Report() {
   let [ChosseImage, setImage] = React.useState("ahmed");

@@ -1,5 +1,5 @@
 import React from "react";
-import indexBlacklist from "../../../assets/Images/Home/Blacklist/Blacklist.jpeg";
+import indexBlacklist from "../../../assets/Images/Admin_images/Home/Blacklist/Blacklist.jpeg";
 import Image from "../../../Components/Image/Image";
 
 export default function Blacklist() {

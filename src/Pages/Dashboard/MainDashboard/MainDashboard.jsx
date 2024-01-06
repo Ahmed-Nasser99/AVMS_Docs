@@ -1,5 +1,5 @@
 import React from "react";
-import mainDashboard from "../../../assets/Images/Dashboard/MainDashboard.jpeg";
+import mainDashboard from "../../../assets/Images/Admin_images/Dashboard/MainDashboard.jpeg";
 import Image from "../../../Components/Image/Image";
 export default function MainDashboard() {
   return (

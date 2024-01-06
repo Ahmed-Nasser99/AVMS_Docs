@@ -1,5 +1,5 @@
 import React from "react";
-import indexUnit from "../../../assets/Images/Home/Units/Units.jpeg";
+import indexUnit from "../../../assets/Images/Admin_images/Home/Units/Units.jpeg";
 import Image from "../../../Components/Image/Image";
 
 export default function Units() {

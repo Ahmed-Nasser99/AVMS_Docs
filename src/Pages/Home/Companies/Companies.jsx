@@ -1,5 +1,5 @@
 import React from "react";
-import indexCompany from "../../../assets/Images/Home/Companies/Companies.jpeg";
+import indexCompany from "../../../assets/Images/Admin_images/Home/Companies/Companies.jpeg";
 import Image from "../../../Components/Image/Image";
 
 export default function Companies() {
