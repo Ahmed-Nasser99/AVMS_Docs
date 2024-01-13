@@ -33,7 +33,7 @@ export default function Navbar({ setDisplaySidebar, DisplaySidebar }) {
             aria-label="Search"
           />
         </div>
-        <div class="dropdown">
+        <div class={i18n.language === "ar" ? "dropend" : "dropstart"}>
           <button
             class="btn btn-white dropdown-toggle"
             type="button"
