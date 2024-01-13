@@ -16,7 +16,12 @@ export default function Navbar({ setDisplaySidebar, DisplaySidebar }) {
       <div className="container">
         <div className="d-flex align-items-center justify-content-between mx-3 w-100">
           <Link className="navbar-brand" href="/">
-            {/* <img src={logo} alt="AVMS" width="80" height="30" /> */}
+            <img
+              src="https://egydns.ddns.net:1488/Images/Icons/avms-logo02-01.ico"
+              alt="AVMS"
+              width="110"
+              height="40"
+            />
           </Link>
           <div className="select d-flex align-items-center gap-3">
             {i18n.language == "ar" ? (
