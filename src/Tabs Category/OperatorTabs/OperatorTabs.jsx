@@ -1,48 +1,50 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
 export default function OperatorTabs() {
+  const { t, i18n } = useTranslation();
   return (
     <ul className="btn-toggle-nav list-unstyled fw-normal pb-1 small">
       <li>
         <Link to="/admin" className="link-dark rounded">
-          Login
+          {t("Login")}
         </Link>
       </li>
 
       <li>
         <Link to="/admin" className="link-dark rounded">
-          Visit Type
+          {t("VisitType")}
         </Link>
       </li>
       <li>
         <Link to="/admin" className="link-dark rounded">
-          Create Today Invitation
+          {t("CreateTodayInvitation")}
         </Link>
       </li>
       <li>
         <Link to="/admin" className="link-dark rounded">
-          Create Upcoming Invitation
+          {t("CreateUpcomingInvitation")}
         </Link>
       </li>
       <li>
         <Link to="/admin" className="link-dark rounded">
-          Search Visits
+          {t("SearchVisits")}
         </Link>
       </li>
       <li>
         <Link to="/admin" className="link-dark rounded">
-          Edit Information Data
+          {t("EditInformationData")}
         </Link>
       </li>
       <li>
         <Link to="/admin" className="link-dark rounded">
-          Cancle Visit
+          {t("CancelVisit")}
         </Link>
       </li>
       <li>
         <Link to="/admin" className="link-dark rounded">
-          Block List
+          {t("BlockList")}
         </Link>
       </li>
     </ul>

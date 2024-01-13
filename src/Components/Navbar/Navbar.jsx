@@ -25,7 +25,7 @@ export default function Navbar({ setDisplaySidebar, DisplaySidebar }) {
         </Link>
         <div className="searchInput position-relative w-50">
           <span className="search_icon">
-            <i class="fa-brands fa-searchengin "></i> Search
+            <i class="fa-brands fa-searchengin "></i> {t("Search")}
           </span>
           <input
             class="form-control mr-sm-2 rounded-5"

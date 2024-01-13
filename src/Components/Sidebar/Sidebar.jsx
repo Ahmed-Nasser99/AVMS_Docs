@@ -5,8 +5,10 @@ import { Link } from "react-router-dom";
 import UsersRoles from "../../Tabs Category/AdminTabs/Users&Roles/Users&Roles";
 import KioskTabs from "../../Tabs Category/KioskTabs/KioskTabs";
 import OperatorTabs from "../../Tabs Category/OperatorTabs/OperatorTabs";
+import { useTranslation } from "react-i18next";
 
 export default function Sidebar({ setDisplaySidebar, DisplaySidebar }) {
+  const { t, i18n } = useTranslation();
   return (
     <div className="flex-shrink-0 p-3 bg-white w-100  sidebar overflow-auto">
       <Link
@@ -21,18 +23,18 @@ export default function Sidebar({ setDisplaySidebar, DisplaySidebar }) {
             data-bs-target="#introduction-collapse"
             aria-expanded="true"
           >
-            Introduction
+            {t("Introduction")}
           </button>
           <div className="collapse show" id="introduction-collapse" style={{}}>
             <ul className="btn-toggle-nav list-unstyled fw-normal pb-1 small">
               <li>
                 <Link to="#" className="link-dark rounded">
-                  Welcome
+                  {t("Welcome")}
                 </Link>
               </li>
               <li>
                 <Link to="#" className="link-dark rounded">
-                  About the software
+                  {t("AboutTheSoftware")}
                 </Link>
               </li>
             </ul>
@@ -45,33 +47,33 @@ export default function Sidebar({ setDisplaySidebar, DisplaySidebar }) {
             data-bs-target="#getting-started-collapse"
             aria-expanded="false"
           >
-            Getting Started
+            {t("GettingStarted")}
           </button>
           <div className="collapse" id="getting-started-collapse">
             <ul className="btn-toggle-nav list-unstyled fw-normal pb-1 small">
               <li>
                 <Link to="#" className="link-dark rounded">
-                  User registration
+                  {t("UserRegistration")}
                 </Link>
               </li>
               <li>
                 <Link to="#" className="link-dark rounded">
-                  Login process
+                  {t("LoginProcess")}
                 </Link>
               </li>
               <li>
                 <Link to="#" className="link-dark rounded">
-                  Dashboard overview
+                  {t("DashboardOverview")}
                 </Link>
               </li>
               <li>
                 <Link to="#" className="link-dark rounded">
-                  Navigating the software
+                  {t("NavigatingTheSoftware")}
                 </Link>
               </li>
               <li>
                 <Link to="#" className="link-dark rounded">
-                  User roles and permissions
+                  {t("UserRolesAndPermissions")}
                 </Link>
               </li>
             </ul>
@@ -84,38 +86,38 @@ export default function Sidebar({ setDisplaySidebar, DisplaySidebar }) {
             data-bs-target="#managing-visitors-collapse"
             aria-expanded="false"
           >
-            Managing Visitors
+            {t("ManagingVisitors")}
           </button>
           <div className="collapse" id="managing-visitors-collapse">
             <ul className="btn-toggle-nav list-unstyled fw-normal pb-1 small">
               <li>
                 <Link to="#" className="link-dark rounded">
-                  Adding a new visitor
+                  {t("AddingNewVisitor")}
                 </Link>
               </li>
               <li>
                 <Link to="#" className="link-dark rounded">
-                  Check-in process
+                  {t("CheckInProcess")}
                 </Link>
               </li>
               <li>
                 <Link to="#" className="link-dark rounded">
-                  Check-out process
+                  {t("CheckOutProcess")}
                 </Link>
               </li>
               <li>
                 <Link to="#" className="link-dark rounded">
-                  Block Visitor
+                  {t("BlockVisitor")}
                 </Link>
               </li>
               <li>
                 <Link to="#" className="link-dark rounded">
-                  Cancle Visit
+                  {t("CancelVisit")}
                 </Link>
               </li>
               <li>
                 <Link to="#" className="link-dark rounded">
-                  Visitor Qr printing
+                  {t("VisitorQrPrinting")}
                 </Link>
               </li>
             </ul>
@@ -128,7 +130,7 @@ export default function Sidebar({ setDisplaySidebar, DisplaySidebar }) {
             data-bs-target="#managing-hosts-collapse"
             aria-expanded="false"
           >
-            Managing Hosts
+            {t("ManagingHosts")}
           </button>
           <div className="collapse" id="managing-hosts-collapse">
             <HomeCategories />
@@ -141,23 +143,23 @@ export default function Sidebar({ setDisplaySidebar, DisplaySidebar }) {
             data-bs-target="#managing-appointments-collapse"
             aria-expanded="false"
           >
-            Managing Appointments
+            {t("ManagingHosts")}
           </button>
           <div className="collapse" id="managing-appointments-collapse">
             <ul className="btn-toggle-nav list-unstyled fw-normal pb-1 small">
               <li>
                 <Link to="#" className="link-dark rounded">
-                  Scheduling appointments
+                  {t("ManagingAppointments")}
                 </Link>
               </li>
               <li>
                 <Link to="#" className="link-dark rounded">
-                  Sending appointment notifications
+                  {t("SchedulingAppointments")}
                 </Link>
               </li>
               <li>
                 <Link to="#" className="link-dark rounded">
-                  Managing appointments
+                  {t("SendingAppointmentNotifications")}
                 </Link>
               </li>
             </ul>
@@ -170,7 +172,7 @@ export default function Sidebar({ setDisplaySidebar, DisplaySidebar }) {
             data-bs-target="#show-Kiosk-collapse"
             aria-expanded="false"
           >
-            Kiosk
+            {t("kiosk")}
           </button>
         </li>
 
@@ -185,7 +187,7 @@ export default function Sidebar({ setDisplaySidebar, DisplaySidebar }) {
             data-bs-target="#show-Operator-collapse"
             aria-expanded="false"
           >
-            Operator
+            {t("operator")}
           </button>
         </li>
 
