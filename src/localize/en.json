@@ -37,5 +37,76 @@
   "EditInformationData": "Edit Information Data",
   "BlockList": "Block List",
   "operator": "Operator",
-  "kiosk": "Kiosk"
+  "kiosk": "Kiosk",
+  "welcomePage": {
+    "header": {
+      "title": "Welcome to AVMS Documentation 🌐",
+      "subtitle": "Your guide to the Visitor Management System by EgyTwins"
+    },
+    "sections": {
+      "introduction": {
+        "title": "Introduction",
+        "content": "Welcome to AVMS! This documentation serves as a comprehensive guide to help you understand and utilize our advanced visitor management solution."
+      },
+      "gettingStarted": {
+        "title": "Getting Started",
+        "subsections": [
+          "System Requirements",
+          "Installation Guide",
+          "Quick Start Guide"
+        ]
+      },
+      "features": {
+        "title": "Features",
+        "content": "Replace this text with an overview of the key features of AVMS."
+      },
+      "userRoles": {
+        "title": "User Roles",
+        "roles": {
+          "administrator": {
+            "title": "Administrator",
+            "content": "Replace this text with information on the responsibilities and privileges of an administrator."
+          },
+          "receptionist": {
+            "title": "Receptionist",
+            "content": "Replace this text with information on the responsibilities and privileges of a receptionist."
+          },
+          "regularUser": {
+            "title": "Regular User",
+            "content": "Replace this text with information on the capabilities of a regular user in AVMS."
+          }
+        }
+      },
+      "usingAVMS": {
+        "title": "Using AVMS",
+        "subsections": [
+          "Logging In",
+          "Dashboard Overview",
+          "Managing Visitors",
+          "Generating Reports"
+        ]
+      },
+      "faqs": {
+        "title": "FAQs",
+        "content": "Replace this text with common questions and answers related to AVMS."
+      },
+      "supportAndContact": {
+        "title": "Support and Contact",
+        "subsections": {
+          "gettingHelp": {
+            "title": "Getting Help",
+            "content": "Replace this text with information on how users can get help with AVMS."
+          },
+          "reportingIssues": {
+            "title": "Reporting Issues",
+            "content": "Replace this text with instructions on how to report issues with AVMS."
+          },
+          "contactInformation": {
+            "title": "Contact Information",
+            "content": "For support and inquiries, contact us at support@egytwins.com"
+          }
+        }
+      }
+    }
+  }
 }

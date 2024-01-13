@@ -8,9 +8,7 @@ export default function Navbar({ setDisplaySidebar, DisplaySidebar }) {
 
   const { t, i18n } = useTranslation();
   let [pageLocation, setPagelocation] = useState("");
-  useEffect(() => {
-    setPagelocation(window.location.hash);
-  }, []);
+  let [showIcon, setShowIcon] = useState(true);
 
   return (
     <nav className="navbar bg-white position-relative fixed-top w-100 ">
@@ -24,14 +22,17 @@ export default function Navbar({ setDisplaySidebar, DisplaySidebar }) {
           />
         </Link>
         <div className="searchInput position-relative w-50">
-          <span className="search_icon">
-            <i class="fa-brands fa-searchengin "></i> {t("Search")}
-          </span>
-          <input
+          <button
             class="form-control mr-sm-2 rounded-5"
             type="search"
             aria-label="Search"
-          />
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            <span className="main-color">
+              <i class="fa-brands fa-searchengin "></i> {t("Search")}
+            </span>
+          </button>
         </div>
         <div class={i18n.language === "ar" ? "dropend" : "dropstart"}>
           <button
