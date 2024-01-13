@@ -32,7 +32,12 @@ export default function OperatorTabs() {
       </li>
       <li>
         <Link to="/admin" className="link-dark rounded">
-          Edit Scanner Data
+          Edit Information Data
+        </Link>
+      </li>
+      <li>
+        <Link to="/admin" className="link-dark rounded">
+          Cancle Visit
         </Link>
       </li>
       <li>

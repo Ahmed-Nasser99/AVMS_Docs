@@ -9,12 +9,6 @@ export default function KioskTabs() {
           Welcome
         </Link>
       </li>
-
-      <li>
-        <Link to="/kiosk/visitType" className="link-dark rounded">
-          Visit Type
-        </Link>
-      </li>
       <li>
         <Link to="/kiosk/todayInvitation" className="link-dark rounded">
           Create Today Invitation

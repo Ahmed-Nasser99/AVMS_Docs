@@ -5,11 +5,6 @@ export default function HomeCategories() {
   return (
     <ul className="btn-toggle-nav list-unstyled fw-normal pb-1 small">
       <li>
-        <Link to="/admin/home" className="link-dark rounded">
-          Overview
-        </Link>
-      </li>
-      <li>
         <Link to="/admin/home/Sectors" className="link-dark rounded">
           Sectors
         </Link>
