@@ -1,3 +1,7 @@
+:root {
+  --maincolor: #0a6ca1;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -144,4 +148,11 @@ main {
 }
 .imageSliderContainer i.next {
   right: 0%;
+}
+.search_icon {
+  color: var(--maincolor);
+  position: absolute;
+  top: 10%;
+  font-size: 1.3rem;
+  left: 3%;
 }
