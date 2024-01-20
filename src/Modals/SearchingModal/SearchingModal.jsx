@@ -4,7 +4,7 @@ export default function SearchingModal() {
   return (
     <div
       className="modal fade"
-      id="exampleModal"
+      id="SearchModal"
       tabindex="-1"
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"

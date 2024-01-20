@@ -21,6 +21,9 @@ code {
 html {
   height: -webkit-fill-available;
 }
+a {
+  text-decoration: none !important;
+}
 #root,
 .container-h,
 .row-h {
