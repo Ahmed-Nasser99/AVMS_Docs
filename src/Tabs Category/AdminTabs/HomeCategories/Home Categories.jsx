@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
-export default function HomeCategories({ setDisplayScreen }) {
+export default function HomeCategories({ setDisplayScreen, DisplayScreen }) {
   const { t, i18n } = useTranslation();
   return (
     <ul className="btn-toggle-nav list-unstyled fw-normal pb-1 small">
@@ -11,7 +11,11 @@ export default function HomeCategories({ setDisplayScreen }) {
           onClick={() => {
             setDisplayScreen("sectors");
           }}
-          className="link-dark rounded"
+          className={
+            DisplayScreen === "sectors"
+              ? "link-dark rounded active"
+              : "link-dark rounded"
+          }
         >
           {t("Sectors")}
         </button>
@@ -21,7 +25,11 @@ export default function HomeCategories({ setDisplayScreen }) {
           onClick={() => {
             setDisplayScreen("buildings");
           }}
-          className="link-dark rounded"
+          className={
+            DisplayScreen === "buildings"
+              ? "link-dark rounded active"
+              : "link-dark rounded"
+          }
         >
           {t("Buildings")}
         </button>
@@ -31,7 +39,11 @@ export default function HomeCategories({ setDisplayScreen }) {
           onClick={() => {
             setDisplayScreen("floors");
           }}
-          className="link-dark rounded"
+          className={
+            DisplayScreen === "floors"
+              ? "link-dark rounded active"
+              : "link-dark rounded"
+          }
         >
           {t("Floors")}
         </button>
@@ -41,7 +53,11 @@ export default function HomeCategories({ setDisplayScreen }) {
           onClick={() => {
             setDisplayScreen("units");
           }}
-          className="link-dark rounded"
+          className={
+            DisplayScreen === "units"
+              ? "link-dark rounded active"
+              : "link-dark rounded"
+          }
         >
           {t("Units")}
         </button>
@@ -51,7 +67,11 @@ export default function HomeCategories({ setDisplayScreen }) {
           onClick={() => {
             setDisplayScreen("gates");
           }}
-          className="link-dark rounded"
+          className={
+            DisplayScreen === "gates"
+              ? "link-dark rounded active"
+              : "link-dark rounded"
+          }
         >
           {t("Gates")}
         </button>
@@ -61,7 +81,11 @@ export default function HomeCategories({ setDisplayScreen }) {
           onClick={() => {
             setDisplayScreen("devices");
           }}
-          className="link-dark rounded"
+          className={
+            DisplayScreen === "devices"
+              ? "link-dark rounded active"
+              : "link-dark rounded"
+          }
         >
           {t("Devices")}
         </button>
@@ -71,7 +95,11 @@ export default function HomeCategories({ setDisplayScreen }) {
           onClick={() => {
             setDisplayScreen("companies");
           }}
-          className="link-dark rounded"
+          className={
+            DisplayScreen === "companies"
+              ? "link-dark rounded active"
+              : "link-dark rounded"
+          }
         >
           {t("Companies")}
         </button>
@@ -81,7 +109,11 @@ export default function HomeCategories({ setDisplayScreen }) {
           onClick={() => {
             setDisplayScreen("deviceTypes");
           }}
-          className="link-dark rounded"
+          className={
+            DisplayScreen === "deviceTypes"
+              ? "link-dark rounded active"
+              : "link-dark rounded"
+          }
         >
           {t("DeviceTypes")}
         </button>
@@ -91,7 +123,11 @@ export default function HomeCategories({ setDisplayScreen }) {
           onClick={() => {
             setDisplayScreen("blacklist");
           }}
-          className="link-dark rounded"
+          className={
+            DisplayScreen === "blacklist"
+              ? "link-dark rounded active"
+              : "link-dark rounded"
+          }
         >
           {t("Blacklist")}
         </button>

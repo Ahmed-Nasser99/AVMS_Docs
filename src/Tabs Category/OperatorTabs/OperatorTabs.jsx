@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
-export default function OperatorTabs({ setDisplayScreen }) {
+export default function OperatorTabs({ setDisplayScreen, DisplayScreen }) {
   const { t, i18n } = useTranslation();
   return (
     <ul className="btn-toggle-nav list-unstyled fw-normal pb-1 small">
@@ -11,7 +11,11 @@ export default function OperatorTabs({ setDisplayScreen }) {
           onClick={() => {
             setDisplayScreen("login");
           }}
-          className="link-dark rounded"
+          className={
+            DisplayScreen === "login"
+              ? "link-dark rounded active"
+              : "link-dark rounded"
+          }
         >
           {t("Login")}
         </button>
@@ -22,7 +26,11 @@ export default function OperatorTabs({ setDisplayScreen }) {
           onClick={() => {
             setDisplayScreen("sectors");
           }}
-          className="link-dark rounded"
+          className={
+            DisplayScreen === "sectors"
+              ? "link-dark rounded active"
+              : "link-dark rounded"
+          }
         >
           {t("VisitType")}
         </button>
@@ -32,7 +40,11 @@ export default function OperatorTabs({ setDisplayScreen }) {
           onClick={() => {
             setDisplayScreen("createTodayInvitation");
           }}
-          className="link-dark rounded"
+          className={
+            DisplayScreen === "createTodayInvitation"
+              ? "link-dark rounded active"
+              : "link-dark rounded"
+          }
         >
           {t("CreateTodayInvitation")}
         </button>
@@ -42,7 +54,11 @@ export default function OperatorTabs({ setDisplayScreen }) {
           onClick={() => {
             setDisplayScreen("createUpcomingVisit");
           }}
-          className="link-dark rounded"
+          className={
+            DisplayScreen === "createUpcomingVisit"
+              ? "link-dark rounded active"
+              : "link-dark rounded"
+          }
         >
           {t("CreateUpcomingInvitation")}
         </button>
@@ -52,7 +68,11 @@ export default function OperatorTabs({ setDisplayScreen }) {
           onClick={() => {
             setDisplayScreen("searchVisits");
           }}
-          className="link-dark rounded"
+          className={
+            DisplayScreen === "searchVisits"
+              ? "link-dark rounded active"
+              : "link-dark rounded"
+          }
         >
           {t("SearchVisits")}
         </button>
@@ -62,7 +82,11 @@ export default function OperatorTabs({ setDisplayScreen }) {
           onClick={() => {
             setDisplayScreen("editInformationData");
           }}
-          className="link-dark rounded"
+          className={
+            DisplayScreen === "editInformationData"
+              ? "link-dark rounded active"
+              : "link-dark rounded"
+          }
         >
           {t("EditInformationData")}
         </button>
@@ -72,7 +96,11 @@ export default function OperatorTabs({ setDisplayScreen }) {
           onClick={() => {
             setDisplayScreen("cancelVisit");
           }}
-          className="link-dark rounded"
+          className={
+            DisplayScreen === "cancelVisit"
+              ? "link-dark rounded active"
+              : "link-dark rounded"
+          }
         >
           {t("CancelVisit")}
         </button>
@@ -82,7 +110,11 @@ export default function OperatorTabs({ setDisplayScreen }) {
           onClick={() => {
             setDisplayScreen("blockList");
           }}
-          className="link-dark rounded"
+          className={
+            DisplayScreen === "blockList"
+              ? "link-dark rounded active"
+              : "link-dark rounded"
+          }
         >
           {t("BlockList")}
         </button>

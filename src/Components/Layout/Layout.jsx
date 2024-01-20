@@ -14,7 +14,10 @@ export default function Layout() {
       <div className="container m-0 container-h w-100 max-width-100">
         <div className="row h-100 row-h">
           <div className="col-md-3">
-            <Sidebar setDisplayScreen={setDisplayScreen} />
+            <Sidebar
+              setDisplayScreen={setDisplayScreen}
+              DisplayScreen={DisplayScreen}
+            />
           </div>
           <div className="col-md-9">
             <MainDocs JsonKey={DisplayScreen} />

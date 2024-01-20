@@ -164,13 +164,14 @@ main {
 .max-width-100 {
   max-width: 100%;
 }
-button {
+.collapse ul li button {
   background-color: transparent !important;
   border: none !important;
   padding: 10px 20px;
 }
 
-.collapse ul li button:hover {
+.collapse ul li button:hover,
+.collapse ul li button.active {
   background-color: #bbe3f1 !important;
   color: #fff !important;
 }

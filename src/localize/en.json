@@ -68,7 +68,32 @@
 
       "closingMessage": "Thank you for choosing EgyTwins. We hope you have a pleasant and productive visit."
     },
-
+    "aboutTheSoftware": {
+      "title": "About the Software",
+      "message": "Learn more about EgyTwins Kiosk Visitor Management System.",
+      "description": "EgyTwins Kiosk is a state-of-the-art visitor management software designed to streamline the visitor registration process and enhance overall security. Our software provides efficient check-in and check-out processes, instant creation of visitor invitations, upcoming visit management, and implements enhanced security measures.",
+      "stepsTitle": "Key Features",
+      "steps": [
+        "Efficient visitor check-in and check-out",
+        "Instant creation of visitor invitations",
+        "Upcoming visit management",
+        "Enhanced security measures",
+        "User-friendly interface for staff and visitors"
+      ],
+      "importantNote": "Technology Stack",
+      "noteDescription": [
+        "React for the frontend",
+        ".net core for the backend",
+        "sql server as the database",
+        "Bootstrap for responsive design"
+      ],
+      "helpTitle": "Contact Information",
+      "helpDescription": [
+        "email: info@egytwinskiosk.com",
+        "phone: +1 (555) 123-4567"
+      ],
+      "closingMessage": "Experience the efficiency and security of EgyTwins Kiosk in managing your visitor interactions."
+    },
     "userRegistration": {
       "title": "User Registration for EgyTwins Visitor Management System",
 

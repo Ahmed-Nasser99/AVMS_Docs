@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
-export default function KioskTabs({ setDisplayScreen }) {
+export default function KioskTabs({ setDisplayScreen, DisplayScreen }) {
   const { t, i18n } = useTranslation();
   return (
     <ul className="btn-toggle-nav list-unstyled fw-normal pb-1 small">
@@ -11,7 +11,11 @@ export default function KioskTabs({ setDisplayScreen }) {
           onClick={() => {
             setDisplayScreen("welcome");
           }}
-          className="link-dark rounded"
+          className={
+            DisplayScreen === "welcome"
+              ? "link-dark rounded active"
+              : "link-dark rounded"
+          }
         >
           {t("Welcome")}
         </button>
@@ -21,7 +25,11 @@ export default function KioskTabs({ setDisplayScreen }) {
           onClick={() => {
             setDisplayScreen("createTodayInvitation");
           }}
-          className="link-dark rounded"
+          className={
+            DisplayScreen === "createTodayInvitation"
+              ? "link-dark rounded active"
+              : "link-dark rounded"
+          }
         >
           {t("CreateTodayInvitation")}
         </button>
@@ -31,7 +39,11 @@ export default function KioskTabs({ setDisplayScreen }) {
           onClick={() => {
             setDisplayScreen("createUpcomingVisit");
           }}
-          className="link-dark rounded"
+          className={
+            DisplayScreen === "createUpcomingVisit"
+              ? "link-dark rounded active"
+              : "link-dark rounded"
+          }
         >
           {t("CreateUpcomingInvitation")}
         </button>
@@ -41,7 +53,11 @@ export default function KioskTabs({ setDisplayScreen }) {
           onClick={() => {
             setDisplayScreen("searchVisits");
           }}
-          className="link-dark rounded"
+          className={
+            DisplayScreen === "searchVisits"
+              ? "link-dark rounded active"
+              : "link-dark rounded"
+          }
         >
           {t("SearchVisits")}
         </button>

@@ -11,16 +11,11 @@ export default function Sidebar({
   setDisplaySidebar,
   DisplaySidebar,
   setDisplayScreen,
+  DisplayScreen,
 }) {
   const { t, i18n } = useTranslation();
   return (
     <div className="flex-shrink-0 p-3 bg-white w-100  sidebar overflow-auto">
-      <button
-        onClick={() => {
-          setDisplayScreen("welcomePage");
-        }}
-        className="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none "
-      ></button>
       <ul className="list-unstyled ps-0">
         <li className="mb-1">
           <button
@@ -38,7 +33,11 @@ export default function Sidebar({
                   onClick={() => {
                     setDisplayScreen("welcomePage");
                   }}
-                  className="link-dark rounded"
+                  className={
+                    DisplayScreen === "welcomePage"
+                      ? "link-dark rounded active"
+                      : "link-dark rounded"
+                  }
                 >
                   {t("Welcome")}
                 </button>
@@ -46,9 +45,13 @@ export default function Sidebar({
               <li>
                 <button
                   onClick={() => {
-                    setDisplayScreen("");
+                    setDisplayScreen("aboutTheSoftware");
                   }}
-                  className="link-dark rounded"
+                  className={
+                    DisplayScreen === "aboutTheSoftware"
+                      ? "link-dark rounded active"
+                      : "link-dark rounded"
+                  }
                 >
                   {t("AboutTheSoftware")}
                 </button>
@@ -72,7 +75,11 @@ export default function Sidebar({
                   onClick={() => {
                     setDisplayScreen("userRegistration");
                   }}
-                  className="link-dark rounded"
+                  className={
+                    DisplayScreen === "userRegistration"
+                      ? "link-dark rounded active"
+                      : "link-dark rounded"
+                  }
                 >
                   {t("UserRegistration")}
                 </button>
@@ -82,7 +89,11 @@ export default function Sidebar({
                   onClick={() => {
                     setDisplayScreen("loginProcess");
                   }}
-                  className="link-dark rounded"
+                  className={
+                    DisplayScreen === "loginProcess"
+                      ? "link-dark rounded active"
+                      : "link-dark rounded"
+                  }
                 >
                   {t("LoginProcess")}
                 </button>
@@ -92,7 +103,11 @@ export default function Sidebar({
                   onClick={() => {
                     setDisplayScreen("dashboardOverview");
                   }}
-                  className="link-dark rounded"
+                  className={
+                    DisplayScreen === "dashboardOverview"
+                      ? "link-dark rounded active"
+                      : "link-dark rounded"
+                  }
                 >
                   {t("DashboardOverview")}
                 </button>
@@ -102,7 +117,11 @@ export default function Sidebar({
                   onClick={() => {
                     setDisplayScreen("navigatingTheSoftware");
                   }}
-                  className="link-dark rounded"
+                  className={
+                    DisplayScreen === "navigatingTheSoftware"
+                      ? "link-dark rounded active"
+                      : "link-dark rounded"
+                  }
                 >
                   {t("NavigatingTheSoftware")}
                 </button>
@@ -112,7 +131,11 @@ export default function Sidebar({
                   onClick={() => {
                     setDisplayScreen("userRolesAndPermissions");
                   }}
-                  className="link-dark rounded"
+                  className={
+                    DisplayScreen === "userRolesAndPermissions"
+                      ? "link-dark rounded active"
+                      : "link-dark rounded"
+                  }
                 >
                   {t("UserRolesAndPermissions")}
                 </button>
@@ -136,7 +159,11 @@ export default function Sidebar({
                   onClick={() => {
                     setDisplayScreen("addingANewVisitor");
                   }}
-                  className="link-dark rounded"
+                  className={
+                    DisplayScreen === "addingANewVisitor"
+                      ? "link-dark rounded active"
+                      : "link-dark rounded"
+                  }
                 >
                   {t("AddingNewVisitor")}
                 </button>
@@ -146,7 +173,11 @@ export default function Sidebar({
                   onClick={() => {
                     setDisplayScreen("checkInProcess");
                   }}
-                  className="link-dark rounded"
+                  className={
+                    DisplayScreen === "checkInProcess"
+                      ? "link-dark rounded active"
+                      : "link-dark rounded"
+                  }
                 >
                   {t("CheckInProcess")}
                 </button>
@@ -156,7 +187,11 @@ export default function Sidebar({
                   onClick={() => {
                     setDisplayScreen("checkOutProcess");
                   }}
-                  className="link-dark rounded"
+                  className={
+                    DisplayScreen === "checkOutProcess"
+                      ? "link-dark rounded active"
+                      : "link-dark rounded"
+                  }
                 >
                   {t("CheckOutProcess")}
                 </button>
@@ -166,7 +201,11 @@ export default function Sidebar({
                   onClick={() => {
                     setDisplayScreen("blockVisitor");
                   }}
-                  className="link-dark rounded"
+                  className={
+                    DisplayScreen === "blockVisitor"
+                      ? "link-dark rounded active"
+                      : "link-dark rounded"
+                  }
                 >
                   {t("BlockVisitor")}
                 </button>
@@ -176,7 +215,11 @@ export default function Sidebar({
                   onClick={() => {
                     setDisplayScreen("cancelVisit");
                   }}
-                  className="link-dark rounded"
+                  className={
+                    DisplayScreen === "cancelVisit"
+                      ? "link-dark rounded active"
+                      : "link-dark rounded"
+                  }
                 >
                   {t("CancelVisit")}
                 </button>
@@ -186,7 +229,11 @@ export default function Sidebar({
                   onClick={() => {
                     setDisplayScreen("visitorQrPrinting");
                   }}
-                  className="link-dark rounded"
+                  className={
+                    DisplayScreen === "visitorQrPrinting"
+                      ? "link-dark rounded active"
+                      : "link-dark rounded"
+                  }
                 >
                   {t("VisitorQrPrinting")}
                 </button>
@@ -204,7 +251,10 @@ export default function Sidebar({
             {t("ManagingHosts")}
           </button>
           <div className="collapse" id="managing-hosts-collapse">
-            <HomeCategories setDisplayScreen={setDisplayScreen} />
+            <HomeCategories
+              setDisplayScreen={setDisplayScreen}
+              DisplayScreen={DisplayScreen}
+            />
           </div>
         </li>
         <li className="mb-1">
@@ -219,7 +269,10 @@ export default function Sidebar({
         </li>
 
         <div className="collapse ps-2" id="show-Kiosk-collapse">
-          <KioskTabs setDisplayScreen={setDisplayScreen} />
+          <KioskTabs
+            setDisplayScreen={setDisplayScreen}
+            DisplayScreen={DisplayScreen}
+          />
         </div>
 
         <li className="mb-1">
@@ -234,7 +287,10 @@ export default function Sidebar({
         </li>
 
         <div className="collapse ps-2" id="show-Operator-collapse">
-          <OperatorTabs setDisplayScreen={setDisplayScreen} />
+          <OperatorTabs
+            setDisplayScreen={setDisplayScreen}
+            DisplayScreen={DisplayScreen}
+          />
         </div>
       </ul>
     </div>
