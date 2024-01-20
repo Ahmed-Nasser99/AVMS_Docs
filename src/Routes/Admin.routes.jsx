@@ -22,7 +22,7 @@ export let adminRoutes = [
   },
   {
     path: "customDashboard",
-    element: <CustomDashboard />,
+    element: <CustomDashboard JsonKey={"dashboardOverview"} />,
   },
   {
     path: "report",

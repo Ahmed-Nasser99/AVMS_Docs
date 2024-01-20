@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-export default function CustomDashboard({ JsonKey }) {
+export default function MainDocs({ JsonKey }) {
   const { t } = useTranslation();
 
   const renderStep = (step, index) => <li key={index}>{step}</li>;

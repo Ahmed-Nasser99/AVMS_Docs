@@ -161,3 +161,16 @@ main {
 .min-vh-75 {
   min-height: 75vh;
 }
+.max-width-100 {
+  max-width: 100%;
+}
+button {
+  background-color: transparent !important;
+  border: none !important;
+  padding: 10px 20px;
+}
+
+.collapse ul li button:hover {
+  background-color: #bbe3f1 !important;
+  color: #fff !important;
+}

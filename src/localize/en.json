@@ -38,75 +38,890 @@
   "BlockList": "Block List",
   "operator": "Operator",
   "kiosk": "Kiosk",
-  "welcomePage": {
-    "header": {
-      "title": "Welcome to AVMS Documentation 🌐",
-      "subtitle": "Your guide to the Visitor Management System by EgyTwins"
+  "visitorManagementSystem": {
+    "companyName": "EgyTwins",
+
+    "welcomePage": {
+      "title": "Welcome to EgyTwins Visitor Management System",
+
+      "message": "Hello and Welcome!",
+
+      "description": "We're thrilled to have you here. At EgyTwins, we prioritize your safety and convenience. Our Visitor Management System is designed to streamline your check-in process, ensuring a seamless and secure visit.",
+
+      "stepsTitle": "Quick and Easy Check-In",
+
+      "steps": [
+        "Enter your details",
+
+        "Capture your photo",
+
+        "Print your visitor badge"
+      ],
+
+      "importantNote": "Safety First",
+
+      "noteDescription": "Your security is our top priority. Rest assured, your information is securely stored and will only be used for safety purposes.",
+
+      "helpTitle": "Need Assistance?",
+
+      "helpDescription": "Our friendly staff is here to help you every step of the way. Don't hesitate to reach out if you need any assistance.",
+
+      "closingMessage": "Thank you for choosing EgyTwins. We hope you have a pleasant and productive visit."
     },
-    "sections": {
-      "introduction": {
-        "title": "Introduction",
-        "content": "Welcome to AVMS! This documentation serves as a comprehensive guide to help you understand and utilize our advanced visitor management solution."
-      },
-      "gettingStarted": {
-        "title": "Getting Started",
-        "subsections": [
-          "System Requirements",
-          "Installation Guide",
-          "Quick Start Guide"
-        ]
-      },
-      "features": {
-        "title": "Features",
-        "content": "Replace this text with an overview of the key features of AVMS."
-      },
-      "userRoles": {
-        "title": "User Roles",
-        "roles": {
-          "administrator": {
-            "title": "Administrator",
-            "content": "Replace this text with information on the responsibilities and privileges of an administrator."
-          },
-          "receptionist": {
-            "title": "Receptionist",
-            "content": "Replace this text with information on the responsibilities and privileges of a receptionist."
-          },
-          "regularUser": {
-            "title": "Regular User",
-            "content": "Replace this text with information on the capabilities of a regular user in AVMS."
-          }
-        }
-      },
-      "usingAVMS": {
-        "title": "Using AVMS",
-        "subsections": [
-          "Logging In",
-          "Dashboard Overview",
-          "Managing Visitors",
-          "Generating Reports"
-        ]
-      },
-      "faqs": {
-        "title": "FAQs",
-        "content": "Replace this text with common questions and answers related to AVMS."
-      },
-      "supportAndContact": {
-        "title": "Support and Contact",
-        "subsections": {
-          "gettingHelp": {
-            "title": "Getting Help",
-            "content": "Replace this text with information on how users can get help with AVMS."
-          },
-          "reportingIssues": {
-            "title": "Reporting Issues",
-            "content": "Replace this text with instructions on how to report issues with AVMS."
-          },
-          "contactInformation": {
-            "title": "Contact Information",
-            "content": "For support and inquiries, contact us at support@egytwins.com"
-          }
-        }
-      }
+
+    "userRegistration": {
+      "title": "User Registration for EgyTwins Visitor Management System",
+
+      "message": "Welcome to the Registration Process!",
+
+      "description": "Thank you for choosing EgyTwins. To ensure a smooth and secure visit, we kindly ask you to complete the registration process.",
+
+      "stepsTitle": "Easy Registration Steps",
+
+      "steps": [
+        "Fill in your personal details",
+
+        "Provide a valid ID for verification",
+
+        "Set up your visit preferences",
+
+        "Create a secure password"
+      ],
+
+      "importantNote": "Privacy and Security",
+
+      "noteDescription": "Your privacy is paramount to us. All information provided is protected and will only be used for official visitation and security purposes.",
+
+      "helpTitle": "Need Help?",
+
+      "helpDescription": "Our support team is ready to assist you. If you encounter any issues or have questions, feel free to contact us.",
+
+      "closingMessage": "We look forward to your visit at EgyTwins and are committed to providing a safe and enjoyable experience."
+    },
+
+    "loginProcess": {
+      "title": "Login Process for EgyTwins Visitor Management System",
+
+      "message": "Securely Accessing Your Account",
+
+      "description": "Access your personalized dashboard and manage your visits efficiently by logging into your account.",
+
+      "stepsTitle": "Simple Login Steps",
+
+      "steps": [
+        "Enter your username",
+
+        "Input your password",
+
+        "Click 'Login' to access your dashboard"
+      ],
+
+      "importantNote": "Account Security",
+
+      "noteDescription": "Your account security is crucial. Remember to keep your login details confidential and log out after each session.",
+
+      "helpTitle": "Login Issues?",
+
+      "helpDescription": "If you're having trouble logging in, our support team is here to help. Contact us for immediate assistance.",
+
+      "closingMessage": "Enjoy the benefits of streamlined visitor management with EgyTwins."
+    },
+
+    "dashboardOverview": {
+      "title": "Dashboard Overview for EgyTwins Visitor Management System",
+
+      "message": "Your Personalized Dashboard",
+
+      "description": "Your dashboard is the hub for all your visitor management activities. Get quick access to your visits, manage appointments, and more.",
+
+      "stepsTitle": "Dashboard Features",
+
+      "steps": [
+        "Overview of upcoming and past visits",
+
+        "Manage your personal details",
+
+        "Access visitor reports and analytics"
+      ],
+
+      "importantNote": "Ease of Use",
+
+      "noteDescription": "We've designed the dashboard to be intuitive and user-friendly, ensuring you can find what you need with ease.",
+
+      "helpTitle": "Need Dashboard Guidance?",
+
+      "helpDescription": "If you need help navigating your dashboard, our team is ready to provide support.",
+
+      "closingMessage": "Make the most of your EgyTwins experience with a tailored dashboard."
+    },
+
+    "navigatingTheSoftware": {
+      "title": "Navigating the EgyTwins Visitor Management System",
+
+      "message": "Explore with Ease",
+
+      "description": "A guide to help you navigate through the various features and functionalities of our system.",
+
+      "stepsTitle": "Navigation Tips",
+
+      "steps": [
+        "Utilize the main menu for quick access to different modules",
+
+        "Use the search function to find specific information quickly",
+
+        "Customize your dashboard for a personalized experience"
+      ],
+
+      "importantNote": "User-Friendly Design",
+
+      "noteDescription": "Our system is designed with user experience in mind, ensuring a smooth navigation process.",
+
+      "helpTitle": "Need Navigation Help?",
+
+      "helpDescription": "If you're finding it challenging to navigate the system, our support team is here for guidance.",
+
+      "closingMessage": "Navigate EgyTwins with confidence and ease."
+    },
+
+    "userRolesAndPermissions": {
+      "title": "User Roles and Permissions in EgyTwins System",
+
+      "message": "Understanding Your Access",
+
+      "description": "An overview of different user roles in our system and the permissions associated with each.",
+
+      "stepsTitle": "Role-Based Access",
+
+      "steps": [
+        "Identify different user roles: Visitor, Host, Admin",
+
+        "Understand the specific permissions for each role",
+
+        "Learn how to change or request changes to your role"
+      ],
+
+      "importantNote": "Customized Access",
+
+      "noteDescription": "Roles and permissions are set to provide a secure and efficient user experience.",
+
+      "helpTitle": "Questions About Roles?",
+
+      "helpDescription": "If you have any questions regarding your role or permissions, our support team is ready to assist.",
+
+      "closingMessage": "Enjoy a tailored experience with role-specific access and functionalities."
+    },
+
+    "addingANewVisitor": {
+      "title": "Adding a New Visitor in EgyTwins System",
+
+      "message": "Welcoming New Visitors",
+
+      "description": "Step by step guide on how to add a new visitor into the EgyTwins Visitor Management System.",
+
+      "stepsTitle": "Addition Steps",
+
+      "steps": [
+        "Enter the visitor's personal information",
+
+        "Specify the date and purpose of the visit",
+
+        "Assign a host and confirm visitor details"
+      ],
+
+      "importantNote": "Efficient Visitor Management",
+
+      "noteDescription": "Adding visitors is streamlined for efficiency and ease.",
+
+      "helpTitle": "Need Help Adding Visitors?",
+
+      "helpDescription": "Our support team can guide you through the process of adding new visitors.",
+
+      "closingMessage": "Effortlessly add visitors and enhance the experience at EgyTwins."
+    },
+
+    "checkInProcess": {
+      "title": "Check-In Process in EgyTwins System",
+
+      "message": "Streamlining Your Arrival",
+
+      "description": "A quick and efficient process to check in visitors upon their arrival.",
+
+      "stepsTitle": "Check-In Steps",
+
+      "steps": [
+        "Verify the visitor's identity and purpose of visit",
+
+        "Capture a photo for the visitor badge",
+
+        "Print the visitor badge and provide any necessary instructions"
+      ],
+
+      "importantNote": "Fast and Secure",
+
+      "noteDescription": "Our check-in process is designed to be both quick and secure, ensuring a smooth start to every visit.",
+
+      "helpTitle": "Need Assistance with Check-In?",
+
+      "helpDescription": "For any help during the check-in process, our staff is readily available to assist.",
+
+      "closingMessage": "Welcome to EgyTwins, where your visit begins with ease."
+    },
+
+    "checkOutProcess": {
+      "title": "Check-Out Process in EgyTwins System",
+
+      "message": "Concluding Your Visit",
+
+      "description": "Simple steps to check out visitors, ensuring a complete record of their visit.",
+
+      "stepsTitle": "Check-Out Steps",
+
+      "steps": [
+        "Visitor confirms departure with the host or at a check-out kiosk",
+
+        "Return any visitor badges or equipment",
+
+        "Visitor's departure is logged in the system for records"
+      ],
+
+      "importantNote": "Efficient and Organized",
+
+      "noteDescription": "Our check-out process is quick and organized, providing a smooth conclusion to each visit.",
+
+      "helpTitle": "Questions at Check-Out?",
+
+      "helpDescription": "Our team is available to assist with any check-out queries or processes.",
+
+      "closingMessage": "Thank you for visiting EgyTwins. We hope to see you again soon!"
+    },
+
+    "blockVisitor": {
+      "title": "Block Visitor in EgyTwins System",
+
+      "message": "Managing Visitor Access",
+
+      "description": "Steps to block a visitor from accessing the premises, ensuring the safety and security of all.",
+
+      "stepsTitle": "Blocking Process",
+
+      "steps": [
+        "Identify the visitor to be blocked",
+
+        "Provide a reason for the block",
+
+        "Confirm the block in the system"
+      ],
+
+      "importantNote": "Safety and Security",
+
+      "noteDescription": "This feature is crucial for maintaining a safe and secure environment at EgyTwins.",
+
+      "helpTitle": "Need Help Blocking a Visitor?",
+
+      "helpDescription": "For guidance on how to block a visitor, please contact our support team.",
+
+      "closingMessage": "EgyTwins remains committed to a secure and safe environment."
+    },
+
+    "visitorQrPrinting": {
+      "title": "Visitor QR Printing in EgyTwins System",
+
+      "message": "Quick Response Code for Visitors",
+
+      "description": "Facilitate visitor movements within the premises using QR code technology.",
+
+      "stepsTitle": "QR Code Generation",
+
+      "steps": [
+        "Generate a QR code upon visitor check-in",
+
+        "Visitor uses QR code for access to designated areas",
+
+        "QR code helps in tracking visitor movement within the premises"
+      ],
+
+      "importantNote": "Modern and Efficient",
+
+      "noteDescription": "QR codes enhance the efficiency and security of visitor management at EgyTwins.",
+
+      "helpTitle": "Need Help with QR Codes?",
+
+      "helpDescription": "If you encounter any issues with QR code generation or usage, contact our support team.",
+
+      "closingMessage": "EgyTwins employs advanced technology for enhanced visitor management."
+    },
+
+    "managingHosts": {
+      "title": "Managing Hosts in EgyTwins System",
+
+      "message": "Host Management Made Easy",
+
+      "description": "Manage and coordinate hosts within your organization to ensure a smooth visitor experience.",
+
+      "stepsTitle": "Host Management Steps",
+
+      "steps": [
+        "Add or remove hosts as needed",
+
+        "Assign hosts to specific visitors or groups",
+
+        "Monitor host availability and activity"
+      ],
+
+      "importantNote": "Effective Coordination",
+
+      "noteDescription": "Our system streamlines the management of hosts, facilitating efficient visitor coordination.",
+
+      "helpTitle": "Need Help with Hosts?",
+
+      "helpDescription": "For any queries related to managing hosts, our team is available to assist.",
+
+      "closingMessage": "Efficiently manage your hosts with EgyTwins for a seamless visitor experience."
+    },
+
+    "sectors": {
+      "title": "Sectors Management in EgyTwins System",
+
+      "message": "Organizing Sectors Effectively",
+
+      "description": "Define and manage various sectors within your organization for better visitor direction and management.",
+
+      "stepsTitle": "Managing Sectors",
+
+      "steps": [
+        "Create and define sectors within the premises",
+
+        "Assign specific hosts or services to each sector",
+
+        "Update sector information as needed"
+      ],
+
+      "importantNote": "Organizational Efficiency",
+
+      "noteDescription": "Sectors organization helps in managing visitor flow and activities within different areas.",
+
+      "helpTitle": "Questions About Sectors?",
+
+      "helpDescription": "Our support team can assist with any queries regarding sector management.",
+
+      "closingMessage": "Organize and manage your organizational sectors efficiently with EgyTwins."
+    },
+
+    "buildings": {
+      "title": "Building Management in EgyTwins System",
+
+      "message": "Efficient Building Administration",
+
+      "description": "Manage all the buildings in your organization, ensuring they are properly allocated for various visitor-related activities.",
+
+      "stepsTitle": "Building Management Steps",
+
+      "steps": [
+        "List all buildings and their specific functions",
+
+        "Allocate and manage spaces within each building",
+
+        "Update building details as required"
+      ],
+
+      "importantNote": "Space Optimization",
+
+      "noteDescription": "Effectively manage your buildings to optimize space and enhance visitor experience.",
+
+      "helpTitle": "Need Building Management Assistance?",
+
+      "helpDescription": "For support in managing your buildings, reach out to our helpdesk.",
+
+      "closingMessage": "Manage your buildings effectively with the EgyTwins Visitor Management System."
+    },
+    "floors": {
+      "title": "Floor Management in EgyTwins System",
+
+      "message": "Efficient Management of Building Floors",
+
+      "description": "Organize and manage the floors in your buildings to facilitate easy navigation and efficient space utilization.",
+
+      "stepsTitle": "Floor Management Steps",
+
+      "steps": [
+        "Catalogue each floor with specific details",
+
+        "Assign functions or departments to each floor",
+
+        "Update floor information for visitors' convenience"
+      ],
+
+      "importantNote": "Spatial Organization",
+
+      "noteDescription": "Proper management of floors enhances the visitor experience and operational efficiency.",
+
+      "helpTitle": "Need Assistance with Floors?",
+
+      "helpDescription": "For any questions about floor management, our support team is here to help.",
+
+      "closingMessage": "Optimize your space with EgyTwins floor management."
+    },
+
+    "units": {
+      "title": "Unit Management in EgyTwins System",
+
+      "message": "Organizing Units for Better Efficiency",
+
+      "description": "Manage the different units within your organization to streamline operations and visitor handling.",
+
+      "stepsTitle": "Unit Management Procedures",
+
+      "steps": [
+        "Define and list all units within the organization",
+
+        "Assign specific roles or activities to each unit",
+
+        "Keep unit information up-to-date for effective management"
+      ],
+
+      "importantNote": "Operational Clarity",
+
+      "noteDescription": "Clear unit management aids in smooth operations and visitor services.",
+
+      "helpTitle": "Questions on Unit Management?",
+
+      "helpDescription": "Our team is available to provide assistance and answer any queries regarding unit management.",
+
+      "closingMessage": "Ensure effective unit organization with EgyTwins."
+    },
+
+    "gates": {
+      "title": "Gate Management in EgyTwins System",
+
+      "message": "Control and Monitor Access Points",
+
+      "description": "Effectively manage the gates within your premises to ensure secure and regulated access for visitors.",
+
+      "stepsTitle": "Gate Management Strategies",
+
+      "steps": [
+        "List all access points and their specific controls",
+
+        "Monitor and manage gate usage",
+
+        "Implement security protocols at each gate"
+      ],
+
+      "importantNote": "Security and Regulation",
+
+      "noteDescription": "Gate management is crucial for maintaining the security and orderliness of your premises.",
+
+      "helpTitle": "Need Help with Gates?",
+
+      "helpDescription": "For guidance on gate management and security, contact our support staff.",
+
+      "closingMessage": "Maintain secure and efficient access with EgyTwins gate management."
+    },
+
+    "devices": {
+      "title": "Device Management in EgyTwins System",
+
+      "message": "Efficient Management of Technological Devices",
+
+      "description": "Handle all the devices within your system, ensuring they are optimally used and maintained for visitor management.",
+
+      "stepsTitle": "Device Handling Procedures",
+
+      "steps": [
+        "List and categorize all devices used in the system",
+
+        "Monitor device status and schedule regular maintenance",
+
+        "Upgrade or replace devices as per technological advancements"
+      ],
+
+      "importantNote": "Technological Efficiency",
+
+      "noteDescription": "Effective device management is key to maintaining a high standard of visitor service.",
+
+      "helpTitle": "Device Management Queries?",
+
+      "helpDescription": "Our technical team is ready to assist with any questions regarding device management.",
+
+      "closingMessage": "Leverage modern technology efficiently with EgyTwins device management."
+    },
+
+    "companies": {
+      "title": "Company Management in EgyTwins System",
+
+      "message": "Organizing Company Profiles",
+
+      "description": "Manage the profiles of different companies or entities that interact with your system.",
+
+      "stepsTitle": "Company Profile Management",
+
+      "steps": [
+        "Create and maintain profiles for each company",
+
+        "Update company information as needed",
+
+        "Manage company-specific visitor protocols"
+      ],
+
+      "importantNote": "Organizational Collaboration",
+
+      "noteDescription": "Keeping company profiles updated ensures smooth collaboration and visitor handling.",
+
+      "helpTitle": "Need Help with Company Profiles?",
+
+      "helpDescription": "Contact our support team for assistance in managing company profiles.",
+
+      "closingMessage": "Enhance collaboration with effective company management in EgyTwins."
+    },
+
+    "deviceTypes": {
+      "title": "Device Type Management in EgyTwins System",
+
+      "message": "Categorizing Device Types",
+
+      "description": "Manage various types of devices used in your system for a streamlined visitor management process.",
+
+      "stepsTitle": "Device Type Categorization",
+
+      "steps": [
+        "Identify and list different types of devices",
+
+        "Assign specific functions to each device type",
+
+        "Regularly review and update device type categorizations"
+      ],
+
+      "importantNote": "Functional Clarity",
+
+      "noteDescription": "Proper categorization of device types aids in their effective utilization and maintenance.",
+
+      "helpTitle": "Queries on Device Types?",
+
+      "helpDescription": "Our technical support team can assist with any questions about device types.",
+
+      "closingMessage": "Efficiently manage device types for optimal visitor management in EgyTwins."
+    },
+
+    "blacklist": {
+      "title": "Blacklist Management in EgyTwins System",
+
+      "message": "Maintaining Security Standards",
+
+      "description": "Effectively manage a blacklist to ensure the safety and security of your premises.",
+
+      "stepsTitle": "Blacklist Protocols",
+
+      "steps": [
+        "Add individuals or entities to the blacklist as necessary",
+
+        "Regularly review and update the blacklist",
+
+        "Ensure compliance with legal and ethical standards"
+      ],
+
+      "importantNote": "Security and Compliance",
+
+      "noteDescription": "Blacklist management is a critical aspect of maintaining a secure and compliant environment.",
+
+      "helpTitle": "Need Assistance with the Blacklist?",
+
+      "helpDescription": "For guidance on managing the blacklist, please consult our security team.",
+
+      "closingMessage": "EgyTwins is committed to a secure and responsible visitor management system."
+    },
+    "managingAppointments": {
+      "title": "Managing Appointments in EgyTwins System",
+
+      "message": "Streamlining Appointment Scheduling",
+
+      "description": "Efficiently schedule and manage appointments within the EgyTwins system for optimal visitor coordination.",
+
+      "stepsTitle": "Appointment Management Steps",
+
+      "steps": [
+        "Schedule new appointments using the system calendar",
+
+        "Send automatic reminders to visitors and hosts",
+
+        "Easily reschedule or cancel appointments as needed"
+      ],
+
+      "importantNote": "Effective Coordination",
+
+      "noteDescription": "Our appointment management system ensures smooth scheduling and communication between visitors and hosts.",
+
+      "helpTitle": "Need Help with Appointments?",
+
+      "helpDescription": "For assistance with scheduling or managing appointments, please contact our support team.",
+
+      "closingMessage": "Ensure a seamless visitor experience with efficient appointment management."
+    },
+
+    "kiosk": {
+      "title": "Kiosk Operations in EgyTwins System",
+
+      "message": "Self-Service Visitor Management",
+
+      "description": "Utilize the self-service kiosk for efficient visitor management, enhancing user independence and reducing wait times.",
+
+      "stepsTitle": "Kiosk Usage Guide",
+
+      "steps": [
+        "Visitors can check-in or check-out using the kiosk",
+
+        "Print visitor badges and QR codes directly from the kiosk",
+
+        "Access information and directions through the kiosk interface"
+      ],
+
+      "importantNote": "Self-Service Efficiency",
+
+      "noteDescription": "Kiosks provide a quick and user-friendly way for visitors to manage their visit without assistance.",
+
+      "helpTitle": "Questions About Kiosk Usage?",
+
+      "helpDescription": "For help with the kiosk or its features, our staff is always ready to assist.",
+
+      "closingMessage": "Experience the convenience of self-service with EgyTwins kiosks."
+    },
+
+    "operator": {
+      "title": "Operator Functions in EgyTwins System",
+
+      "message": "Advanced System Management",
+
+      "description": "Operators can access advanced features and settings to effectively manage the visitor management system.",
+
+      "stepsTitle": "Operator Capabilities",
+
+      "steps": [
+        "Oversee visitor check-ins and check-outs",
+
+        "Manage system settings and user roles",
+
+        "Generate reports and analyze visitor data"
+      ],
+
+      "importantNote": "Comprehensive Control",
+
+      "noteDescription": "Operator functions provide complete control over the visitor management system, ensuring efficient operation.",
+
+      "helpTitle": "Operator Assistance Needed?",
+
+      "helpDescription": "Our technical team is available to provide support to system operators as needed.",
+
+      "closingMessage": "Administer the EgyTwins system effectively with comprehensive operator tools."
+    },
+
+    "welcome": {
+      "title": "Welcome to EgyTwins Kiosk",
+
+      "message": "Self-Service Simplified",
+
+      "description": "Effortlessly check-in, print badges, and navigate your visit using our intuitive kiosk.",
+
+      "stepsTitle": "Getting Started",
+
+      "steps": [
+        "Touch the screen to begin",
+
+        "Follow the prompts to enter your details",
+
+        "Print your badge and enjoy your visit"
+      ],
+
+      "importantNote": "User-Friendly Interface",
+
+      "noteDescription": "Our kiosk is designed for ease of use, offering a seamless self-service experience.",
+
+      "helpTitle": "Need Kiosk Assistance?",
+
+      "helpDescription": "If you need help using the kiosk, our staff is available to guide you.",
+
+      "closingMessage": "Thank you for using the EgyTwins Kiosk for a swift and easy check-in."
+    },
+
+    "createTodayInvitation": {
+      "title": "Create Today's Invitation at EgyTwins Kiosk",
+
+      "message": "Instant Visitor Invitations",
+
+      "description": "Quickly generate an invitation for visitors arriving today.",
+
+      "stepsTitle": "Creating an Invitation",
+
+      "steps": [
+        "Select 'Create Today's Invitation'",
+
+        "Enter the visitor's details and visit purpose",
+
+        "Confirm the invitation and notify the visitor"
+      ],
+
+      "importantNote": "Immediate Processing",
+
+      "noteDescription": "This feature allows for instant creation and confirmation of visitor invitations.",
+
+      "helpTitle": "Invitation Creation Help",
+
+      "helpDescription": "For assistance with creating an invitation, please reach out to our staff.",
+
+      "closingMessage": "Efficiently manage same-day visits with instant invitations."
+    },
+    "createUpcomingVisit": {
+      "title": "Upcoming Visit Management",
+      "message": "Manage Scheduled Visitor Arrivals",
+      "description": "Efficiently handle and prepare for upcoming visitor arrivals.",
+      "stepsTitle": "Managing Upcoming Visits",
+      "steps": [
+        "Navigate to 'Upcoming Visits' section",
+        "Review and verify upcoming visitor details",
+        "Prepare necessary resources and accommodations"
+      ],
+      "importantNote": "Preparation is Key",
+      "noteDescription": "Ensure a smooth experience by preparing for upcoming visitor arrivals in advance.",
+      "helpTitle": "Upcoming Visit Assistance",
+      "helpDescription": "If you need assistance with managing upcoming visits, our team is here to help.",
+      "closingMessage": "Stay organized and provide a welcoming experience for scheduled visitors."
+    },
+
+    "searchVisits": {
+      "title": "Search Visits at EgyTwins Kiosk",
+
+      "message": "Easily Find Visit Information",
+
+      "description": "Locate and review details of scheduled visits quickly using the kiosk.",
+
+      "stepsTitle": "Visit Search",
+
+      "steps": [
+        "Select the 'Search Visits' option",
+
+        "Enter the search criteria for the visit",
+
+        "View and manage the visit details"
+      ],
+
+      "importantNote": "Convenient Access",
+
+      "noteDescription": "Our kiosk enables quick access to visit information, streamlining the visitor management process.",
+
+      "helpTitle": "Need Help with Searching?",
+
+      "helpDescription": "If you need assistance in searching for visit details, our staff is here to help.",
+
+      "closingMessage": "Find and manage visit information easily with the EgyTwins Kiosk."
+    },
+
+    "login": {
+      "title": "Operator Login in EgyTwins System",
+
+      "message": "Secure Operator Access",
+
+      "description": "Operators can log in to access and manage the system's advanced features.",
+
+      "stepsTitle": "Logging In",
+
+      "steps": [
+        "Enter operator credentials",
+
+        "Verify identity if prompted",
+
+        "Access the operator dashboard"
+      ],
+
+      "importantNote": "Security Measures",
+
+      "noteDescription": "Operator login is protected with advanced security protocols to ensure system integrity.",
+
+      "helpTitle": "Login Issues?",
+
+      "helpDescription": "For any login-related problems, please contact our technical support team.",
+
+      "closingMessage": "Secure and efficient system access for authorized operators."
+    },
+
+    "editInformationData": {
+      "title": "Edit Information Data in EgyTwins System",
+
+      "message": "Data Management and Editing",
+
+      "description": "Operators have the ability to edit and update information data within the system for accurate record-keeping.",
+
+      "stepsTitle": "Data Editing Process",
+
+      "steps": [
+        "Navigate to the data management section",
+
+        "Select the information to be edited",
+
+        "Update the data and save changes"
+      ],
+
+      "importantNote": "Data Integrity",
+
+      "noteDescription": "Maintaining accurate and up-to-date information is crucial for effective visitor management.",
+
+      "helpTitle": "Need Data Editing Assistance?",
+
+      "helpDescription": "Our technical team is available to assist with data editing and management.",
+
+      "closingMessage": "Ensure the accuracy and integrity of system data with proficient editing tools."
+    },
+    "cancelVisit": {
+      "title": "Cancel Visit in EgyTwins System",
+
+      "message": "Efficient Visit Cancellation Process",
+
+      "description": "Operators have the ability to cancel scheduled visits, ensuring up-to-date and accurate visit management.",
+
+      "stepsTitle": "Visit Cancellation Steps",
+
+      "steps": [
+        "Identify the visit to be cancelled in the system",
+
+        "Provide a reason for cancellation and confirm",
+
+        "Notify the visitor and host about the cancellation"
+      ],
+
+      "importantNote": "Communication is Key",
+
+      "noteDescription": "Effective communication of cancellations prevents confusion and ensures smooth operation.",
+
+      "helpTitle": "Need Help Cancelling a Visit?",
+
+      "helpDescription": "If you require assistance with cancelling a visit, our support team is ready to help.",
+
+      "closingMessage": "Manage visit schedules accurately with the EgyTwins system."
+    },
+
+    "blockList": {
+      "title": "Manage Block List in EgyTwins System",
+
+      "message": "Maintaining a Secure Environment",
+
+      "description": "Operators can manage and update the block list to ensure the safety and security of the premises.",
+
+      "stepsTitle": "Block List Management",
+
+      "steps": [
+        "Access the block list module",
+
+        "Add or remove individuals or entities as needed",
+
+        "Ensure all changes are updated and saved"
+      ],
+
+      "importantNote": "Safety and Security",
+
+      "noteDescription": "Managing the block list is crucial for maintaining a secure environment in the facility.",
+
+      "helpTitle": "Assistance with Block List?",
+
+      "helpDescription": "For any inquiries or help regarding the block list, our security team is available for assistance.",
+
+      "closingMessage": "Keep your environment safe with effective block list management."
     }
   }
 }

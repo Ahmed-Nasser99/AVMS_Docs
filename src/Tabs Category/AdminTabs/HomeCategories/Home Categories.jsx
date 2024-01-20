@@ -2,54 +2,99 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
-export default function HomeCategories() {
+export default function HomeCategories({ setDisplayScreen }) {
   const { t, i18n } = useTranslation();
   return (
     <ul className="btn-toggle-nav list-unstyled fw-normal pb-1 small">
       <li>
-        <Link to="/admin/home/Sectors" className="link-dark rounded">
+        <button
+          onClick={() => {
+            setDisplayScreen("sectors");
+          }}
+          className="link-dark rounded"
+        >
           {t("Sectors")}
-        </Link>
+        </button>
       </li>
       <li>
-        <Link to="/admin/home/Buildings" className="link-dark rounded">
+        <button
+          onClick={() => {
+            setDisplayScreen("buildings");
+          }}
+          className="link-dark rounded"
+        >
           {t("Buildings")}
-        </Link>
+        </button>
       </li>
       <li>
-        <Link to="/admin/home/Floors" className="link-dark rounded">
+        <button
+          onClick={() => {
+            setDisplayScreen("floors");
+          }}
+          className="link-dark rounded"
+        >
           {t("Floors")}
-        </Link>
+        </button>
       </li>
       <li>
-        <Link to="/admin/home/Units" className="link-dark rounded">
+        <button
+          onClick={() => {
+            setDisplayScreen("units");
+          }}
+          className="link-dark rounded"
+        >
           {t("Units")}
-        </Link>
+        </button>
       </li>
       <li>
-        <Link to="/admin/home/Gates" className="link-dark rounded">
+        <button
+          onClick={() => {
+            setDisplayScreen("gates");
+          }}
+          className="link-dark rounded"
+        >
           {t("Gates")}
-        </Link>
+        </button>
       </li>
       <li>
-        <Link to="/admin/home/Devices" className="link-dark rounded">
+        <button
+          onClick={() => {
+            setDisplayScreen("devices");
+          }}
+          className="link-dark rounded"
+        >
           {t("Devices")}
-        </Link>
+        </button>
       </li>
       <li>
-        <Link to="/admin/home/Companies" className="link-dark rounded">
+        <button
+          onClick={() => {
+            setDisplayScreen("companies");
+          }}
+          className="link-dark rounded"
+        >
           {t("Companies")}
-        </Link>
+        </button>
       </li>
       <li>
-        <Link to="/admin/home/DeviceTypes" className="link-dark rounded">
+        <button
+          onClick={() => {
+            setDisplayScreen("deviceTypes");
+          }}
+          className="link-dark rounded"
+        >
           {t("DeviceTypes")}
-        </Link>
+        </button>
       </li>
       <li>
-        <Link to="/admin/home/Blacklist" className="link-dark rounded">
+        <button
+          onClick={() => {
+            setDisplayScreen("blacklist");
+          }}
+          className="link-dark rounded"
+        >
           {t("Blacklist")}
-        </Link>
+        </button>
       </li>
     </ul>
   );

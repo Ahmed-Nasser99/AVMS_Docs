@@ -2,29 +2,49 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
-export default function KioskTabs() {
+export default function KioskTabs({ setDisplayScreen }) {
   const { t, i18n } = useTranslation();
   return (
     <ul className="btn-toggle-nav list-unstyled fw-normal pb-1 small">
       <li>
-        <Link to="/kiosk" className="link-dark rounded">
+        <button
+          onClick={() => {
+            setDisplayScreen("welcome");
+          }}
+          className="link-dark rounded"
+        >
           {t("Welcome")}
-        </Link>
+        </button>
       </li>
       <li>
-        <Link to="/kiosk/todayInvitation" className="link-dark rounded">
+        <button
+          onClick={() => {
+            setDisplayScreen("createTodayInvitation");
+          }}
+          className="link-dark rounded"
+        >
           {t("CreateTodayInvitation")}
-        </Link>
+        </button>
       </li>
       <li>
-        <Link to="/kiosk/upcomingInvitation" className="link-dark rounded">
+        <button
+          onClick={() => {
+            setDisplayScreen("createUpcomingVisit");
+          }}
+          className="link-dark rounded"
+        >
           {t("CreateUpcomingInvitation")}
-        </Link>
+        </button>
       </li>
       <li>
-        <Link to="/kiosk/SearchVisits" className="link-dark rounded">
+        <button
+          onClick={() => {
+            setDisplayScreen("searchVisits");
+          }}
+          className="link-dark rounded"
+        >
           {t("SearchVisits")}
-        </Link>
+        </button>
       </li>
     </ul>
   );

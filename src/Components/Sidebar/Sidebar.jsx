@@ -7,14 +7,20 @@ import KioskTabs from "../../Tabs Category/KioskTabs/KioskTabs";
 import OperatorTabs from "../../Tabs Category/OperatorTabs/OperatorTabs";
 import { useTranslation } from "react-i18next";
 
-export default function Sidebar({ setDisplaySidebar, DisplaySidebar }) {
+export default function Sidebar({
+  setDisplaySidebar,
+  DisplaySidebar,
+  setDisplayScreen,
+}) {
   const { t, i18n } = useTranslation();
   return (
     <div className="flex-shrink-0 p-3 bg-white w-100  sidebar overflow-auto">
-      <Link
-        to="/"
+      <button
+        onClick={() => {
+          setDisplayScreen("welcomePage");
+        }}
         className="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none "
-      ></Link>
+      ></button>
       <ul className="list-unstyled ps-0">
         <li className="mb-1">
           <button
@@ -28,14 +34,24 @@ export default function Sidebar({ setDisplaySidebar, DisplaySidebar }) {
           <div className="collapse show" id="introduction-collapse" style={{}}>
             <ul className="btn-toggle-nav list-unstyled fw-normal pb-1 small">
               <li>
-                <Link to="#" className="link-dark rounded">
+                <button
+                  onClick={() => {
+                    setDisplayScreen("welcomePage");
+                  }}
+                  className="link-dark rounded"
+                >
                   {t("Welcome")}
-                </Link>
+                </button>
               </li>
               <li>
-                <Link to="#" className="link-dark rounded">
+                <button
+                  onClick={() => {
+                    setDisplayScreen("");
+                  }}
+                  className="link-dark rounded"
+                >
                   {t("AboutTheSoftware")}
-                </Link>
+                </button>
               </li>
             </ul>
           </div>
@@ -52,29 +68,54 @@ export default function Sidebar({ setDisplaySidebar, DisplaySidebar }) {
           <div className="collapse" id="getting-started-collapse">
             <ul className="btn-toggle-nav list-unstyled fw-normal pb-1 small">
               <li>
-                <Link to="#" className="link-dark rounded">
+                <button
+                  onClick={() => {
+                    setDisplayScreen("userRegistration");
+                  }}
+                  className="link-dark rounded"
+                >
                   {t("UserRegistration")}
-                </Link>
+                </button>
               </li>
               <li>
-                <Link to="#" className="link-dark rounded">
+                <button
+                  onClick={() => {
+                    setDisplayScreen("loginProcess");
+                  }}
+                  className="link-dark rounded"
+                >
                   {t("LoginProcess")}
-                </Link>
+                </button>
               </li>
               <li>
-                <Link to="#" className="link-dark rounded">
+                <button
+                  onClick={() => {
+                    setDisplayScreen("dashboardOverview");
+                  }}
+                  className="link-dark rounded"
+                >
                   {t("DashboardOverview")}
-                </Link>
+                </button>
               </li>
               <li>
-                <Link to="#" className="link-dark rounded">
+                <button
+                  onClick={() => {
+                    setDisplayScreen("navigatingTheSoftware");
+                  }}
+                  className="link-dark rounded"
+                >
                   {t("NavigatingTheSoftware")}
-                </Link>
+                </button>
               </li>
               <li>
-                <Link to="#" className="link-dark rounded">
+                <button
+                  onClick={() => {
+                    setDisplayScreen("userRolesAndPermissions");
+                  }}
+                  className="link-dark rounded"
+                >
                   {t("UserRolesAndPermissions")}
-                </Link>
+                </button>
               </li>
             </ul>
           </div>
@@ -91,34 +132,64 @@ export default function Sidebar({ setDisplaySidebar, DisplaySidebar }) {
           <div className="collapse" id="managing-visitors-collapse">
             <ul className="btn-toggle-nav list-unstyled fw-normal pb-1 small">
               <li>
-                <Link to="#" className="link-dark rounded">
+                <button
+                  onClick={() => {
+                    setDisplayScreen("addingANewVisitor");
+                  }}
+                  className="link-dark rounded"
+                >
                   {t("AddingNewVisitor")}
-                </Link>
+                </button>
               </li>
               <li>
-                <Link to="#" className="link-dark rounded">
+                <button
+                  onClick={() => {
+                    setDisplayScreen("checkInProcess");
+                  }}
+                  className="link-dark rounded"
+                >
                   {t("CheckInProcess")}
-                </Link>
+                </button>
               </li>
               <li>
-                <Link to="#" className="link-dark rounded">
+                <button
+                  onClick={() => {
+                    setDisplayScreen("checkOutProcess");
+                  }}
+                  className="link-dark rounded"
+                >
                   {t("CheckOutProcess")}
-                </Link>
+                </button>
               </li>
               <li>
-                <Link to="#" className="link-dark rounded">
+                <button
+                  onClick={() => {
+                    setDisplayScreen("blockVisitor");
+                  }}
+                  className="link-dark rounded"
+                >
                   {t("BlockVisitor")}
-                </Link>
+                </button>
               </li>
               <li>
-                <Link to="#" className="link-dark rounded">
+                <button
+                  onClick={() => {
+                    setDisplayScreen("cancelVisit");
+                  }}
+                  className="link-dark rounded"
+                >
                   {t("CancelVisit")}
-                </Link>
+                </button>
               </li>
               <li>
-                <Link to="#" className="link-dark rounded">
+                <button
+                  onClick={() => {
+                    setDisplayScreen("visitorQrPrinting");
+                  }}
+                  className="link-dark rounded"
+                >
                   {t("VisitorQrPrinting")}
-                </Link>
+                </button>
               </li>
             </ul>
           </div>
@@ -133,36 +204,7 @@ export default function Sidebar({ setDisplaySidebar, DisplaySidebar }) {
             {t("ManagingHosts")}
           </button>
           <div className="collapse" id="managing-hosts-collapse">
-            <HomeCategories />
-          </div>
-        </li>
-        <li className="mb-1">
-          <button
-            className="btn btn-toggle align-items-center rounded collapsed"
-            data-bs-toggle="collapse"
-            data-bs-target="#managing-appointments-collapse"
-            aria-expanded="false"
-          >
-            {t("ManagingHosts")}
-          </button>
-          <div className="collapse" id="managing-appointments-collapse">
-            <ul className="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-              <li>
-                <Link to="#" className="link-dark rounded">
-                  {t("ManagingAppointments")}
-                </Link>
-              </li>
-              <li>
-                <Link to="#" className="link-dark rounded">
-                  {t("SchedulingAppointments")}
-                </Link>
-              </li>
-              <li>
-                <Link to="#" className="link-dark rounded">
-                  {t("SendingAppointmentNotifications")}
-                </Link>
-              </li>
-            </ul>
+            <HomeCategories setDisplayScreen={setDisplayScreen} />
           </div>
         </li>
         <li className="mb-1">
@@ -177,7 +219,7 @@ export default function Sidebar({ setDisplaySidebar, DisplaySidebar }) {
         </li>
 
         <div className="collapse ps-2" id="show-Kiosk-collapse">
-          <KioskTabs />
+          <KioskTabs setDisplayScreen={setDisplayScreen} />
         </div>
 
         <li className="mb-1">
@@ -192,7 +234,7 @@ export default function Sidebar({ setDisplaySidebar, DisplaySidebar }) {
         </li>
 
         <div className="collapse ps-2" id="show-Operator-collapse">
-          <OperatorTabs />
+          <OperatorTabs setDisplayScreen={setDisplayScreen} />
         </div>
       </ul>
     </div>

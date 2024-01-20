@@ -2,50 +2,90 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
-export default function OperatorTabs() {
+export default function OperatorTabs({ setDisplayScreen }) {
   const { t, i18n } = useTranslation();
   return (
     <ul className="btn-toggle-nav list-unstyled fw-normal pb-1 small">
       <li>
-        <Link to="/admin" className="link-dark rounded">
+        <button
+          onClick={() => {
+            setDisplayScreen("login");
+          }}
+          className="link-dark rounded"
+        >
           {t("Login")}
-        </Link>
+        </button>
       </li>
 
       <li>
-        <Link to="/admin" className="link-dark rounded">
+        <button
+          onClick={() => {
+            setDisplayScreen("sectors");
+          }}
+          className="link-dark rounded"
+        >
           {t("VisitType")}
-        </Link>
+        </button>
       </li>
       <li>
-        <Link to="/admin" className="link-dark rounded">
+        <button
+          onClick={() => {
+            setDisplayScreen("createTodayInvitation");
+          }}
+          className="link-dark rounded"
+        >
           {t("CreateTodayInvitation")}
-        </Link>
+        </button>
       </li>
       <li>
-        <Link to="/admin" className="link-dark rounded">
+        <button
+          onClick={() => {
+            setDisplayScreen("createUpcomingVisit");
+          }}
+          className="link-dark rounded"
+        >
           {t("CreateUpcomingInvitation")}
-        </Link>
+        </button>
       </li>
       <li>
-        <Link to="/admin" className="link-dark rounded">
+        <button
+          onClick={() => {
+            setDisplayScreen("searchVisits");
+          }}
+          className="link-dark rounded"
+        >
           {t("SearchVisits")}
-        </Link>
+        </button>
       </li>
       <li>
-        <Link to="/admin" className="link-dark rounded">
+        <button
+          onClick={() => {
+            setDisplayScreen("editInformationData");
+          }}
+          className="link-dark rounded"
+        >
           {t("EditInformationData")}
-        </Link>
+        </button>
       </li>
       <li>
-        <Link to="/admin" className="link-dark rounded">
+        <button
+          onClick={() => {
+            setDisplayScreen("cancelVisit");
+          }}
+          className="link-dark rounded"
+        >
           {t("CancelVisit")}
-        </Link>
+        </button>
       </li>
       <li>
-        <Link to="/admin" className="link-dark rounded">
+        <button
+          onClick={() => {
+            setDisplayScreen("blockList");
+          }}
+          className="link-dark rounded"
+        >
           {t("BlockList")}
-        </Link>
+        </button>
       </li>
     </ul>
   );
