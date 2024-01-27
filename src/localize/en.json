@@ -39,14 +39,14 @@
   "operator": "Operator",
   "kiosk": "Kiosk",
   "visitorManagementSystem": {
-    "companyName": "EgyTwins",
+    "companyName": "AVMS",
 
     "welcomePage": {
-      "title": "Welcome to EgyTwins Visitor Management System",
+      "title": "Welcome to AVMS Visitor Management System",
 
       "message": "Hello and Welcome!",
 
-      "description": "We're thrilled to have you here. At EgyTwins, we prioritize your safety and convenience. Our Visitor Management System is designed to streamline your check-in process, ensuring a seamless and secure visit.",
+      "description": "We're thrilled to have you here. At AVMS, we prioritize your safety and convenience. Our Visitor Management System is designed to streamline your check-in process, ensuring a seamless and secure visit.",
 
       "stepsTitle": "Quick and Easy Check-In",
 
@@ -60,18 +60,18 @@
 
       "importantNote": "Safety First",
 
-      "noteDescription": "Your security is our top priority. Rest assured, your information is securely stored and will only be used for safety purposes.",
+      "noteDescription": "Your security is our top priority. Rest assured, your Visitors information is securely stored and will only be used for safety purposes.",
 
       "helpTitle": "Need Assistance?",
 
-      "helpDescription": "Our friendly staff is here to help you every step of the way. Don't hesitate to reach out if you need any assistance.",
+      "helpDescription": "Our friendly staff is Available to help you every step of the way. Don't hesitate to reach out if you need any assistance.",
 
-      "closingMessage": "Thank you for choosing EgyTwins. We hope you have a pleasant and productive visit."
+      "closingMessage": "Thank you for choosing AVMS."
     },
     "aboutTheSoftware": {
       "title": "About the Software",
-      "message": "Learn more about EgyTwins Kiosk Visitor Management System.",
-      "description": "EgyTwins Kiosk is a state-of-the-art visitor management software designed to streamline the visitor registration process and enhance overall security. Our software provides efficient check-in and check-out processes, instant creation of visitor invitations, upcoming visit management, and implements enhanced security measures.",
+      "message": "Learn more about Automated Visitor Management System (AVMS).",
+      "description": "AVMS is a state-of-the-art visitor management software designed to streamline the visitor registration process and enhance overall security. Our software provides efficient check-in and check-out processes, instant creation of visitor invitations, upcoming visit management, and implements enhanced security measures.",
       "stepsTitle": "Key Features",
       "steps": [
         "Efficient visitor check-in and check-out",
@@ -89,17 +89,17 @@
       ],
       "helpTitle": "Contact Information",
       "helpDescription": [
-        "email: info@egytwinskiosk.com",
+        "email: info@egytwins.com",
         "phone: +1 (555) 123-4567"
       ],
-      "closingMessage": "Experience the efficiency and security of EgyTwins Kiosk in managing your visitor interactions."
+      "closingMessage": "Experience the efficiency and security of AVMS in managing your visitor interactions."
     },
     "userRegistration": {
-      "title": "User Registration for EgyTwins Visitor Management System",
+      "title": "User Registration for AVMS Visitor Management System",
 
       "message": "Welcome to the Registration Process!",
 
-      "description": "Thank you for choosing EgyTwins. To ensure a smooth and secure visit, we kindly ask you to complete the registration process.",
+      "description": "Thank you for choosing AVMS. To ensure a smooth and secure visit, we kindly ask you to complete the registration process.",
 
       "stepsTitle": "Easy Registration Steps",
 
@@ -121,11 +121,11 @@
 
       "helpDescription": "Our support team is ready to assist you. If you encounter any issues or have questions, feel free to contact us.",
 
-      "closingMessage": "We look forward to your visit at EgyTwins and are committed to providing a safe and enjoyable experience."
+      "closingMessage": "We look forward to your visit at AVMS Website and are committed to providing a safe and enjoyable experience."
     },
 
     "loginProcess": {
-      "title": "Login Process for EgyTwins Visitor Management System",
+      "title": "Login Process for AVMS Visitor Management System",
 
       "message": "Securely Accessing Your Account",
 
@@ -149,11 +149,11 @@
 
       "helpDescription": "If you're having trouble logging in, our support team is here to help. Contact us for immediate assistance.",
 
-      "closingMessage": "Enjoy the benefits of streamlined visitor management with EgyTwins."
+      "closingMessage": "Enjoy the benefits of streamlined visitor management with AVMS."
     },
 
     "dashboardOverview": {
-      "title": "Dashboard Overview for EgyTwins Visitor Management System",
+      "title": "Dashboard Overview for AVMS Visitor Management System",
 
       "message": "Your Personalized Dashboard",
 
@@ -177,11 +177,11 @@
 
       "helpDescription": "If you need help navigating your dashboard, our team is ready to provide support.",
 
-      "closingMessage": "Make the most of your EgyTwins experience with a tailored dashboard."
+      "closingMessage": "Make the most of your AVMS experience with a tailored dashboard."
     },
 
     "navigatingTheSoftware": {
-      "title": "Navigating the EgyTwins Visitor Management System",
+      "title": "Navigating the AVMS Visitor Management System",
 
       "message": "Explore with Ease",
 
@@ -205,11 +205,11 @@
 
       "helpDescription": "If you're finding it challenging to navigate the system, our support team is here for guidance.",
 
-      "closingMessage": "Navigate EgyTwins with confidence and ease."
+      "closingMessage": "Navigate AVMS with confidence and ease."
     },
 
     "userRolesAndPermissions": {
-      "title": "User Roles and Permissions in EgyTwins System",
+      "title": "User Roles and Permissions in AVMS System",
 
       "message": "Understanding Your Access",
 
@@ -237,11 +237,11 @@
     },
 
     "addingANewVisitor": {
-      "title": "Adding a New Visitor in EgyTwins System",
+      "title": "Adding a New Visitor in AVMS System",
 
       "message": "Welcoming New Visitors",
 
-      "description": "Step by step guide on how to add a new visitor into the EgyTwins Visitor Management System.",
+      "description": "Step by step guide on how to add a new visitor into the AVMS Visitor Management System.",
 
       "stepsTitle": "Addition Steps",
 
@@ -261,11 +261,11 @@
 
       "helpDescription": "Our support team can guide you through the process of adding new visitors.",
 
-      "closingMessage": "Effortlessly add visitors and enhance the experience at EgyTwins."
+      "closingMessage": "Effortlessly add visitors and enhance the experience at AVMS."
     },
 
     "checkInProcess": {
-      "title": "Check-In Process in EgyTwins System",
+      "title": "Check-In Process in AVMS System",
 
       "message": "Streamlining Your Arrival",
 
@@ -289,11 +289,11 @@
 
       "helpDescription": "For any help during the check-in process, our staff is readily available to assist.",
 
-      "closingMessage": "Welcome to EgyTwins, where your visit begins with ease."
+      "closingMessage": "Welcome to AVMS, where your visit begins with ease."
     },
 
     "checkOutProcess": {
-      "title": "Check-Out Process in EgyTwins System",
+      "title": "Check-Out Process in AVMS System",
 
       "message": "Concluding Your Visit",
 
@@ -317,11 +317,11 @@
 
       "helpDescription": "Our team is available to assist with any check-out queries or processes.",
 
-      "closingMessage": "Thank you for visiting EgyTwins. We hope to see you again soon!"
+      "closingMessage": "Thank you for using AVMS. We hope to see you again soon!"
     },
 
     "blockVisitor": {
-      "title": "Block Visitor in EgyTwins System",
+      "title": "Block Visitor in AVMS System",
 
       "message": "Managing Visitor Access",
 
@@ -339,17 +339,17 @@
 
       "importantNote": "Safety and Security",
 
-      "noteDescription": "This feature is crucial for maintaining a safe and secure environment at EgyTwins.",
+      "noteDescription": "This feature is crucial for maintaining a safe and secure environment at AVMS.",
 
       "helpTitle": "Need Help Blocking a Visitor?",
 
       "helpDescription": "For guidance on how to block a visitor, please contact our support team.",
 
-      "closingMessage": "EgyTwins remains committed to a secure and safe environment."
+      "closingMessage": "AVMS remains committed to a secure and safe environment."
     },
 
     "visitorQrPrinting": {
-      "title": "Visitor QR Printing in EgyTwins System",
+      "title": "Visitor QR Printing in AVMS System",
 
       "message": "Quick Response Code for Visitors",
 
@@ -367,17 +367,17 @@
 
       "importantNote": "Modern and Efficient",
 
-      "noteDescription": "QR codes enhance the efficiency and security of visitor management at EgyTwins.",
+      "noteDescription": "QR codes enhance the efficiency and security of visitor management at AVMS.",
 
       "helpTitle": "Need Help with QR Codes?",
 
       "helpDescription": "If you encounter any issues with QR code generation or usage, contact our support team.",
 
-      "closingMessage": "EgyTwins employs advanced technology for enhanced visitor management."
+      "closingMessage": "AVMS employs advanced technology for enhanced visitor management."
     },
 
     "managingHosts": {
-      "title": "Managing Hosts in EgyTwins System",
+      "title": "Managing Hosts in AVMS System",
 
       "message": "Host Management Made Easy",
 
@@ -401,11 +401,11 @@
 
       "helpDescription": "For any queries related to managing hosts, our team is available to assist.",
 
-      "closingMessage": "Efficiently manage your hosts with EgyTwins for a seamless visitor experience."
+      "closingMessage": "Efficiently manage your hosts with AVMS for a seamless visitor experience."
     },
 
     "sectors": {
-      "title": "Sectors Management in EgyTwins System",
+      "title": "Sectors Management in AVMS System",
 
       "message": "Organizing Sectors Effectively",
 
@@ -429,11 +429,11 @@
 
       "helpDescription": "Our support team can assist with any queries regarding sector management.",
 
-      "closingMessage": "Organize and manage your organizational sectors efficiently with EgyTwins."
+      "closingMessage": "Organize and manage your organizational sectors efficiently with AVMS."
     },
 
     "buildings": {
-      "title": "Building Management in EgyTwins System",
+      "title": "Building Management in AVMS System",
 
       "message": "Efficient Building Administration",
 
@@ -457,10 +457,10 @@
 
       "helpDescription": "For support in managing your buildings, reach out to our helpdesk.",
 
-      "closingMessage": "Manage your buildings effectively with the EgyTwins Visitor Management System."
+      "closingMessage": "Manage your buildings effectively with the AVMS Visitor Management System."
     },
     "floors": {
-      "title": "Floor Management in EgyTwins System",
+      "title": "Floor Management in AVMS System",
 
       "message": "Efficient Management of Building Floors",
 
@@ -484,11 +484,11 @@
 
       "helpDescription": "For any questions about floor management, our support team is here to help.",
 
-      "closingMessage": "Optimize your space with EgyTwins floor management."
+      "closingMessage": "Optimize your space with AVMS floor management."
     },
 
     "units": {
-      "title": "Unit Management in EgyTwins System",
+      "title": "Unit Management in AVMS System",
 
       "message": "Organizing Units for Better Efficiency",
 
@@ -512,11 +512,11 @@
 
       "helpDescription": "Our team is available to provide assistance and answer any queries regarding unit management.",
 
-      "closingMessage": "Ensure effective unit organization with EgyTwins."
+      "closingMessage": "Ensure effective unit organization with AVMS."
     },
 
     "gates": {
-      "title": "Gate Management in EgyTwins System",
+      "title": "Gate Management in AVMS System",
 
       "message": "Control and Monitor Access Points",
 
@@ -540,11 +540,11 @@
 
       "helpDescription": "For guidance on gate management and security, contact our support staff.",
 
-      "closingMessage": "Maintain secure and efficient access with EgyTwins gate management."
+      "closingMessage": "Maintain secure and efficient access with AVMS gate management."
     },
 
     "devices": {
-      "title": "Device Management in EgyTwins System",
+      "title": "Device Management in AVMS System",
 
       "message": "Efficient Management of Technological Devices",
 
@@ -568,11 +568,11 @@
 
       "helpDescription": "Our technical team is ready to assist with any questions regarding device management.",
 
-      "closingMessage": "Leverage modern technology efficiently with EgyTwins device management."
+      "closingMessage": "Leverage modern technology efficiently with AVMS device management."
     },
 
     "companies": {
-      "title": "Company Management in EgyTwins System",
+      "title": "Company Management in AVMS System",
 
       "message": "Organizing Company Profiles",
 
@@ -596,11 +596,11 @@
 
       "helpDescription": "Contact our support team for assistance in managing company profiles.",
 
-      "closingMessage": "Enhance collaboration with effective company management in EgyTwins."
+      "closingMessage": "Enhance collaboration with effective company management in AVMS."
     },
 
     "deviceTypes": {
-      "title": "Device Type Management in EgyTwins System",
+      "title": "Device Type Management in AVMS System",
 
       "message": "Categorizing Device Types",
 
@@ -624,11 +624,11 @@
 
       "helpDescription": "Our technical support team can assist with any questions about device types.",
 
-      "closingMessage": "Efficiently manage device types for optimal visitor management in EgyTwins."
+      "closingMessage": "Efficiently manage device types for optimal visitor management in AVMS."
     },
 
     "blacklist": {
-      "title": "Blacklist Management in EgyTwins System",
+      "title": "Blacklist Management in AVMS System",
 
       "message": "Maintaining Security Standards",
 
@@ -652,14 +652,14 @@
 
       "helpDescription": "For guidance on managing the blacklist, please consult our security team.",
 
-      "closingMessage": "EgyTwins is committed to a secure and responsible visitor management system."
+      "closingMessage": "AVMS is committed to a secure and responsible visitor management system."
     },
     "managingAppointments": {
-      "title": "Managing Appointments in EgyTwins System",
+      "title": "Managing Appointments in AVMS System",
 
       "message": "Streamlining Appointment Scheduling",
 
-      "description": "Efficiently schedule and manage appointments within the EgyTwins system for optimal visitor coordination.",
+      "description": "Efficiently schedule and manage appointments within the AVMS system for optimal visitor coordination.",
 
       "stepsTitle": "Appointment Management Steps",
 
@@ -683,7 +683,7 @@
     },
 
     "kiosk": {
-      "title": "Kiosk Operations in EgyTwins System",
+      "title": "Kiosk Operations in AVMS System",
 
       "message": "Self-Service Visitor Management",
 
@@ -707,11 +707,11 @@
 
       "helpDescription": "For help with the kiosk or its features, our staff is always ready to assist.",
 
-      "closingMessage": "Experience the convenience of self-service with EgyTwins kiosks."
+      "closingMessage": "Experience the convenience of self-service with AVMS"
     },
 
     "operator": {
-      "title": "Operator Functions in EgyTwins System",
+      "title": "Operator Functions in AVMS System",
 
       "message": "Advanced System Management",
 
@@ -735,11 +735,11 @@
 
       "helpDescription": "Our technical team is available to provide support to system operators as needed.",
 
-      "closingMessage": "Administer the EgyTwins system effectively with comprehensive operator tools."
+      "closingMessage": "Administer the AVMS system effectively with comprehensive operator tools."
     },
 
     "welcome": {
-      "title": "Welcome to EgyTwins Kiosk",
+      "title": "Welcome to AVMS Kiosk",
 
       "message": "Self-Service Simplified",
 
@@ -763,11 +763,11 @@
 
       "helpDescription": "If you need help using the kiosk, our staff is available to guide you.",
 
-      "closingMessage": "Thank you for using the EgyTwins Kiosk for a swift and easy check-in."
+      "closingMessage": "Thank you for using the AVMS Kiosk for a swift and easy check-in."
     },
 
     "createTodayInvitation": {
-      "title": "Create Today's Invitation at EgyTwins Kiosk",
+      "title": "Create Today's Invitation at AVMS Kiosk",
 
       "message": "Instant Visitor Invitations",
 
@@ -811,7 +811,7 @@
     },
 
     "searchVisits": {
-      "title": "Search Visits at EgyTwins Kiosk",
+      "title": "Search Visits at AVMS Kiosk",
 
       "message": "Easily Find Visit Information",
 
@@ -835,11 +835,11 @@
 
       "helpDescription": "If you need assistance in searching for visit details, our staff is here to help.",
 
-      "closingMessage": "Find and manage visit information easily with the EgyTwins Kiosk."
+      "closingMessage": "Find and manage visit information easily with the AVMS Kiosk."
     },
 
     "login": {
-      "title": "Operator Login in EgyTwins System",
+      "title": "Operator Login in AVMS System",
 
       "message": "Secure Operator Access",
 
@@ -867,7 +867,7 @@
     },
 
     "editInformationData": {
-      "title": "Edit Information Data in EgyTwins System",
+      "title": "Edit Information Data in AVMS System",
 
       "message": "Data Management and Editing",
 
@@ -894,7 +894,7 @@
       "closingMessage": "Ensure the accuracy and integrity of system data with proficient editing tools."
     },
     "cancelVisit": {
-      "title": "Cancel Visit in EgyTwins System",
+      "title": "Cancel Visit in AVMS System",
 
       "message": "Efficient Visit Cancellation Process",
 
@@ -918,11 +918,11 @@
 
       "helpDescription": "If you require assistance with cancelling a visit, our support team is ready to help.",
 
-      "closingMessage": "Manage visit schedules accurately with the EgyTwins system."
+      "closingMessage": "Manage visit schedules accurately with the AVMS system."
     },
 
     "blockList": {
-      "title": "Manage Block List in EgyTwins System",
+      "title": "Manage Block List in AVMS System",
 
       "message": "Maintaining a Secure Environment",
 
